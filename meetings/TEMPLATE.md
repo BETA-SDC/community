@@ -8,7 +8,7 @@ Recorder:
 
 # Beta书院SDC会议纪要 | Meeting Minutes of Beta College SDC
 
-[MEMBERS](https://github.com/BETA-SDC/community/blob/main/members/2025-2026.md)
+[MEMBERS](https://github.com/BETA-SDC/community/blob/main/members/2025-2026.csv)
 
 ## 例行汇报 | Regular report
 
