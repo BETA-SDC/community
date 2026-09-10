@@ -1,6 +1,6 @@
 # β书院 SDC Community
 
-β书院学生发展委员会（SDC）的公共资料仓库，用于集中保存组织资料、成员名册、规章制度、会议记录入口和视觉素材。
+β书院学生发展委员会（SDC）的公共资料仓库，用于集中保存组织资料、成员名册、规章制度、会议记录跳转入口和视觉素材。
 
 本仓库以 Markdown、CSV 和常见图片格式为主，方便成员查阅、协作编辑和追踪历史变更。
 
@@ -10,7 +10,7 @@
 | --- | --- |
 | [`members/`](members/) | 按学年保存的 SDC 成员名册 |
 | [`regulations/`](regulations/) | 值日、大扫除等规章制度 |
-| [`meetings/`](meetings/) | 会议记录模板和会议记录入口 |
+| [`meetings/`](meetings/) | 已迁移的会议记录模板和会议记录跳转入口 |
 | [`docs/`](docs/) | 团队协作与 GitHub 使用说明 |
 | [`logos/`](logos/) | β书院、西湖大学及相关视觉素材 |
 
@@ -40,7 +40,15 @@ Name,Github ID,Department,Role
 
 ## 会议记录
 
-本目录保留会议记录模板及历史入口。目前具体会议记录已迁移至独立的 [`BETA-SDC/meetings`](https://github.com/BETA-SDC/meetings) 仓库，`meetings/` 中的文件会链接到对应位置。
+会议记录模板和会议记录已经全部迁移至独立的 [`BETA-SDC/meetings`](https://github.com/BETA-SDC/meetings) 仓库。
+
+本仓库的 [`meetings/`](meetings/) 目录仅保留跳转文件：
+
+- [`TEMPLATE.md`](meetings/TEMPLATE.md) 跳转至会议记录模板
+- [`2026-2027/2026-09-06.md`](meetings/2026-2027/2026-09-06.md) 跳转至对应会议记录
+- [`2026-2027/2026-09-09.md`](meetings/2026-2027/2026-09-09.md) 跳转至对应会议记录
+
+后续新增或修改会议记录时，请直接在 [`BETA-SDC/meetings`](https://github.com/BETA-SDC/meetings) 仓库中进行。
 
 ## 规章制度
 
