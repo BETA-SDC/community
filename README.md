@@ -51,7 +51,7 @@ Name,Github ID,Department,Role
 
 后续新增或修改会议记录时，请直接在 [`BETA-SDC/meetings`](https://github.com/BETA-SDC/meetings) 仓库中进行。
 
-## 规章制度
+## 文档分类
 
 所有文档统一放在 `docs/` 下，并按用途分为三类：
 
