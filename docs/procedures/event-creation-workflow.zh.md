@@ -45,32 +45,48 @@
 ### 流程图
 
 ```mermaid
-flowchart TD
-    idea["活动想法或协作事项"] --> mainIssue["创建主 Issue<br/>[event] 或 [improvement]"]
-    mainIssue --> discuss["讨论方案并通知相关成员"]
-    discuss --> split["拆分 Sub-issue"]
-    split --> taskIssue["任务分配<br/>[task] + assignee"]
-    taskIssue --> branch["从主 Issue 创建分支"]
-    branch --> materials["准备活动材料"]
-    materials --> pr["提交 Pull Request"]
-    pr --> review{"负责人确认？"}
-    review -- "需要修改" --> materials
-    review -- "确认无误" --> merge["合并 PR"]
-    merge --> send["发送通知或宣传文案"]
-    send --> messageIssue["归档消息<br/>[message]"]
-    messageIssue --> wrapUp["活动收尾<br/>[wrap-up]"]
-```
-
-```mermaid
 flowchart LR
-    main["主 Issue<br/>整体背景、负责人、关键时间"] --> task["[task] Sub-issue<br/>具体任务和 assignee"]
-    main --> message["[message] Sub-issue<br/>已发送文案归档"]
-    main --> wrap["[wrap-up] Sub-issue<br/>复盘和素材整理"]
-    main --> branch["对应分支<br/>文件修改"]
-    branch --> pr["Pull Request<br/>审核和合并"]
-    task --> pr
-    message --> main
-    wrap --> main
+    start(["活动想法<br/>协作事项"])
+
+    subgraph issue["Issue 入口"]
+        main["主 Issue<br/>[event] / [improvement]"]
+        discuss["讨论方案<br/>通知相关成员"]
+    end
+
+    subgraph work["执行协作"]
+        task["任务 Sub-issue<br/>[task] + assignee"]
+        branch["对应分支"]
+        materials["活动材料<br/>策划 / 文案 / 海报 / 预算"]
+    end
+
+    subgraph review["审核合并"]
+        pr["Pull Request"]
+        check{"负责人确认"}
+        merge["合并修改"]
+    end
+
+    subgraph archive["归档收尾"]
+        send["正式发送"]
+        message["消息归档<br/>[message]"]
+        wrap["复盘收尾<br/>[wrap-up]"]
+    end
+
+    start --> main --> discuss --> task
+    task --> branch --> materials --> pr --> check
+    check -- 修改 --> materials
+    check -- 通过 --> merge --> send --> message --> wrap
+    task -. 进度回写 .-> main
+    message -. 归档链接 .-> main
+    wrap -. 复盘记录 .-> main
+
+    classDef entry fill:#eef6ff,stroke:#3b82f6,color:#0f172a
+    classDef workStyle fill:#f7fee7,stroke:#65a30d,color:#1a2e05
+    classDef reviewStyle fill:#fff7ed,stroke:#f97316,color:#431407
+    classDef archiveStyle fill:#f5f3ff,stroke:#8b5cf6,color:#1e1b4b
+    class main,discuss entry
+    class task,branch,materials workStyle
+    class pr,check,merge reviewStyle
+    class send,message,wrap archiveStyle
 ```
 
 ## 适用范围
