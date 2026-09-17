@@ -13,6 +13,7 @@
 - **先开 Issue，再开始做。** 有活动或其他设想时，先在相关仓库开 Issue，把想法、背景、负责人和可能相关的人员写清楚。
 - **具体任务用 Sub-issue 分配。** 当活动进入执行阶段，把海报、文案、场地、物资、现场执行等明确任务拆成 Sub-issue，并 assign 给对应成员。
 - **Sub-issue 标题要统一。** 标题应使用固定前缀、活动名称和具体事项，便于在 Issue 列表、搜索结果和主 Issue checklist 中快速识别。
+- **Issue 和 Sub-issue 要打标签。** 标签用于区分活动主线、任务分配、消息归档和活动收尾，方便后续筛选和复盘。
 - **所有修改都在分支中完成。** 不直接在主分支上改活动材料，避免多人协作时互相覆盖。
 - **完成后通过 Pull Request 合并。** Pull Request 是审核、讨论和确认最终版本的地方。
 - **发出的信息要归档。** 邮件、群聊消息、招募文案等一旦正式发送，需要在 Sub-issue 中备份，并打上对应的 `message` 标签。
@@ -105,7 +106,35 @@ Sub-issue 中建议写清楚：
 
 如果一个 Sub-issue 同时包含任务和消息，应优先按主要用途命名。一般情况下，准备文案属于 `[task]`，正式发送后的文案归档属于 `[message]`。
 
-### 5. 从 Issue 创建分支
+### 5. Issue 标签规范
+
+Issue 和 Sub-issue 应根据用途添加标签。建议使用少量稳定标签，不为每个活动单独创建新标签。
+
+推荐标签如下：
+
+| 标签 | 使用对象 | 用途 |
+| --- | --- | --- |
+| `event` | 主 Issue | 表示这是一个活动或活动相关事项的主入口 |
+| `task` | Sub-issue | 表示这是分配给成员执行的具体任务 |
+| `message` | Sub-issue | 表示这是已经正式发送的消息或文案归档 |
+| `mail` | Sub-issue | 表示该消息或任务与邮件有关 |
+| `group-notice` | Sub-issue | 表示该消息或任务与微信群、飞书群等群通知有关 |
+| `notification-poster` | Sub-issue | 表示该任务与海报、推文或宣传物料有关 |
+| `wrap-up` | 主 Issue 或 Sub-issue | 表示活动结束后的复盘、素材整理或收尾事项 |
+
+标签使用规则：
+
+- 活动主 Issue 应至少添加 `event`
+- 任务分配类 Sub-issue 应至少添加 `task`
+- 消息归档类 Sub-issue 应至少添加 `message`
+- 邮件归档建议使用 `message` + `mail`
+- 群通知归档建议使用 `message` + `group-notice`
+- 海报、推文、报名宣传物料相关任务建议使用 `task` + `notification-poster`
+- 活动结束后的复盘或素材整理建议使用 `wrap-up`
+
+如果某个 Issue 只是临时提问、信息待确认或需要额外帮助，可以临时使用 GitHub 默认标签 `question` 或 `help wanted`。确认后应补上对应的活动流程标签。
+
+### 6. 从 Issue 创建分支
 
 活动进入执行阶段后，从 Issue 页面创建对应分支。分支名称应尽量简短、可识别，并和活动相关。
 
@@ -125,7 +154,7 @@ issue编号-活动短名
 
 如果使用 GitHub 网页端，可以在 Issue 右侧或开发相关区域创建分支；如果使用本地 Git，也应确保分支与该 Issue 对应，并在后续 Pull Request 中关联原 Issue。
 
-### 6. 在分支中准备活动材料
+### 7. 在分支中准备活动材料
 
 所有活动相关文件都应在该活动分支中完成，包括但不限于：
 
@@ -153,7 +182,7 @@ YYYY-MM-DD-activity-name
 
 在协作过程中，尽量把重要决定写回 Issue 或相关 Markdown 文件，不只留在聊天记录里。
 
-### 7. 提交 Pull Request
+### 8. 提交 Pull Request
 
 活动材料准备到可以审核的状态后，提交 Pull Request。Pull Request 中建议说明：
 
@@ -175,7 +204,7 @@ Update group birthday ceremony materials
 
 负责人审核 Pull Request 后，可以提出修改意见。修改完成并确认无误后，再合并分支。
 
-### 8. 发送通知并归档文案
+### 9. 发送通知并归档文案
 
 邮件、群聊消息、报名通知、招募文案等正式发出后，需要在原 Issue 下创建 Sub-issue 进行归档。
 
@@ -202,7 +231,7 @@ Sub-issue 需要打上对应的 `message` 标签。这样之后查找“当时�
 [message] Group Birthday Ceremony - 微信群通知 - 2026-09-16
 ```
 
-### 9. 活动结束后的收尾
+### 10. 活动结束后的收尾
 
 活动结束后，负责人应根据实际情况补充以下内容：
 
@@ -219,8 +248,10 @@ Sub-issue 需要打上对应的 `message` 标签。这样之后查找“当时�
 在 Pull Request 合并前，建议检查：
 
 - [ ] 原始 Issue 已说明活动背景、负责人和相关人员
+- [ ] 原始 Issue 已添加 `event` 标签
 - [ ] 具体任务已拆成 Sub-issue，并 assign 给对应成员
 - [ ] Sub-issue 标题符合统一格式
+- [ ] Sub-issue 已根据用途添加 `task`、`message` 或其他对应标签
 - [ ] 已从 Issue 创建并使用对应分支
 - [ ] 活动材料放在正确目录下
 - [ ] 时间、地点、主办方、报名方式等关键信息已确认
