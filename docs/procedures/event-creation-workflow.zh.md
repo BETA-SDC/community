@@ -7,6 +7,7 @@
 ## 目录
 
 - [流程概览](#流程概览)
+  - [流程图](#流程图)
 - [适用范围](#适用范围)
 - [基本原则](#基本原则)
 - [标准流程](#标准流程)
@@ -40,6 +41,37 @@
 7. **活动收尾：** 活动结束后补充参与情况、素材位置、复盘记录和后续可复用内容。
 
 主 Issue 用来保存活动或事项的整体上下文；Sub-issue 用来跟踪具体任务、消息归档和收尾工作；分支和 Pull Request 用来保存可审核、可追溯的文件修改。
+
+### 流程图
+
+```mermaid
+flowchart TD
+    idea["活动想法或协作事项"] --> mainIssue["创建主 Issue<br/>[event] 或 [improvement]"]
+    mainIssue --> discuss["讨论方案并通知相关成员"]
+    discuss --> split["拆分 Sub-issue"]
+    split --> taskIssue["任务分配<br/>[task] + assignee"]
+    taskIssue --> branch["从主 Issue 创建分支"]
+    branch --> materials["准备活动材料"]
+    materials --> pr["提交 Pull Request"]
+    pr --> review{"负责人确认？"}
+    review -- "需要修改" --> materials
+    review -- "确认无误" --> merge["合并 PR"]
+    merge --> send["发送通知或宣传文案"]
+    send --> messageIssue["归档消息<br/>[message]"]
+    messageIssue --> wrapUp["活动收尾<br/>[wrap-up]"]
+```
+
+```mermaid
+flowchart LR
+    main["主 Issue<br/>整体背景、负责人、关键时间"] --> task["[task] Sub-issue<br/>具体任务和 assignee"]
+    main --> message["[message] Sub-issue<br/>已发送文案归档"]
+    main --> wrap["[wrap-up] Sub-issue<br/>复盘和素材整理"]
+    main --> branch["对应分支<br/>文件修改"]
+    branch --> pr["Pull Request<br/>审核和合并"]
+    task --> pr
+    message --> main
+    wrap --> main
+```
 
 ## 适用范围
 
