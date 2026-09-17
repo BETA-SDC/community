@@ -1,3 +1,5 @@
+# 素材拍摄与交付规范
+
 English version: [media-capture-guidelines.md](./media-capture-guidelines.md)
 
 ## 适用场景

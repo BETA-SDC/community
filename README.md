@@ -9,9 +9,10 @@
 | 目录 | 内容 |
 | --- | --- |
 | [`members/`](members/) | 按学年保存的 SDC 成员名册 |
-| [`regulations/`](regulations/) | 值日、大扫除等规章制度 |
+| [`regulations/`](regulations/) | 组织正式制度与必须遵守的规则 |
+| [`procedures/`](procedures/) | 活动、宣传和其他工作的标准流程 |
+| [`resources/`](resources/) | GitHub、Markdown、工具和其他参考资料 |
 | [`meetings/`](meetings/) | 已迁移的会议记录模板和会议记录跳转入口 |
-| [`docs/`](docs/) | 团队协作与 GitHub 使用说明 |
 | [`logos/`](logos/) | β书院、西湖大学及相关视觉素材 |
 
 ## 常用资料
@@ -20,7 +21,10 @@
 - [2025–2026 学年成员名册](members/2025-2026.csv)
 - [2026 年值日与大扫除规章](regulations/duty_roster_regulation_2026.md)
 - [2023 年值日与大扫除规章](regulations/duty_roster_regulation_2023.md)
-- [为什么使用 GitHub](docs/why-we-use-github.md)
+- [活动建立规范流程](procedures/event-creation-workflow.zh.md)
+- [素材拍摄与交付规范](procedures/media-capture-guidelines.zh.md)
+- [为什么使用 GitHub](resources/why-we-use-github.md)
+- [资料与帮助文档](resources/README.zh.md)
 - [Logo 与视觉素材说明](logos/README.md)
 
 ## 成员名册
@@ -52,7 +56,11 @@ Name,Github ID,Department,Role
 
 ## 规章制度
 
-`regulations/` 用于保存组织已经发布或正在整理的制度文件。当前的 2026 年规章文件仍是占位说明，正式内容发布后应直接更新该文件，并保留清晰的变更记录。
+`regulations/` 用于保存组织已经发布或正在整理的正式制度文件。制度回答的是“什么必须遵守”，例如值日、大扫除和公共空间使用要求。
+
+`procedures/` 用于保存可重复执行的标准工作流程。流程回答的是“具体应该怎么做”，例如建立活动、准备宣传材料和交付媒体素材。
+
+`resources/` 用于保存工具、教程、背景说明和外部参考链接。这些资料用于帮助成员完成工作，不等同于组织制度或强制流程。
 
 ## 协作约定
 
@@ -64,6 +72,6 @@ Name,Github ID,Department,Role
 
 ## 使用 GitHub
 
-本仓库通过 GitHub 提供在线查阅、协作编辑和版本追踪。第一次使用 GitHub 时，可以先阅读[《为什么使用 GitHub》](docs/why-we-use-github.md)，了解 Markdown、版本控制和团队协作的基本方式。
+本仓库通过 GitHub 提供在线查阅、协作编辑和版本追踪。第一次使用 GitHub 时，可以先阅读[《为什么使用 GitHub》](resources/why-we-use-github.md)，了解 Markdown、版本控制和团队协作的基本方式。
 
 仓库地址：[github.com/BETA-SDC/community](https://github.com/BETA-SDC/community)
