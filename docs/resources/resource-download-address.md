@@ -1,4 +1,6 @@
 
+# Resource Download Addresses
+
 [Git](https://git-scm.com/install): a free, open-source distributed version control system created by Linus Torvalds in 2005. It's designed to handle everything from small to very large projects with speed and efficiency.
 
 [GitHub Desktop](https://desktop.github.com/download): a free, open-source GUI application that simplifies Git and GitHub workflows. It wraps the command-line complexity of Git into a visual interface, making version control accessible without memorizing terminal commands.
