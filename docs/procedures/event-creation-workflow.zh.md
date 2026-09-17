@@ -104,23 +104,32 @@ Sub-issue 中建议写清楚：
 | 类型 | 用途 | 标题格式 |
 | --- | --- | --- |
 | `[event]` | 活动主 Issue | `[event] 活动名称` |
-| `[improvement]` | 组织内部流程、制度、工具或协作方式改进提议 | `[improvement] 改进事项名称` |
+| `[improvement]` | 组织内部流程、制度、工具或协作方式的改进提议 | `[improvement] 改进事项名称` |
 | `[task]` | 分配需要成员执行的具体任务 | `[task] 活动名称 - 任务名称` |
 | `[message]` | 归档已经正式发送的通知或宣传文案 | `[message] 活动名称 - 渠道 - YYYY-MM-DD` |
 | `[wrap-up]` | 活动复盘、素材整理或收尾事项 | `[wrap-up] 活动名称 - 收尾事项` |
 | `[question]` | 临时问题、信息待确认或需要讨论的事项 | `[question] 问题简述` |
-| `[docs]` | 文档维护或规范更新 | `[docs] 文档名称或规范名称` |
+| `[docs]` | 已有文档的维护、修正、补充或整理 | `[docs] 文档名称或维护事项` |
+
+`[improvement]` 和 `[docs]` 的区别：
+
+- 如果 Issue 的核心是“我们以后应该怎么做”，使用 `[improvement]`
+- 如果 Issue 的核心是“这份文档需要怎么改”，使用 `[docs]`
+- 如果一个改进提议最终需要修改文档，主 Issue 仍使用 `[improvement]`，具体文档修改可以作为 `[task]` Sub-issue 或 Pull Request 处理
+- 如果只是修错字、补链接、整理格式、同步已有流程，不改变组织工作方式，使用 `[docs]`
 
 示例：
 
 ```text
 [event] Math Help Room
 [improvement] 建立活动创建标准流程
+[improvement] 统一活动任务分配方式
 [task] Math Help Room - 制作报名表
 [message] Math Help Room - 邮件通知 - 2026-09-09
 [wrap-up] Group Birthday Ceremony - 整理照片素材
 [question] 是否需要统一报名表模板
 [docs] 更新活动流程说明
+[docs] 修正素材交付规范中的链接
 ```
 
 如果一个 Sub-issue 同时包含任务和消息，应优先按主要用途命名。一般情况下，准备文案属于 `[task]`，正式发送后的文案归档属于 `[message]`。
@@ -146,7 +155,8 @@ Issue 和 Sub-issue 应根据用途添加标签。建议使用少量稳定标签
 
 - 活动主 Issue 应至少添加 `event`
 - 组织内部改进提议应至少添加 `internal-improvement`
-- 如果内部改进提议需要修改文档，可同时添加 `documentation`
+- 如果 Issue 主要是维护已有文档，应添加 `documentation`
+- 如果内部改进提议最终需要修改文档，主 Issue 不需要额外添加 `documentation`；对应的文档修改 Pull Request 或文档维护 Issue 可使用 `documentation`
 - 任务分配类 Sub-issue 应至少添加 `task`
 - 消息归档类 Sub-issue 应至少添加 `message`
 - 邮件归档建议使用 `message` + `mail`
