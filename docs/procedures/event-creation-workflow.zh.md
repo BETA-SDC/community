@@ -115,6 +115,7 @@ Issue 和 Sub-issue 应根据用途添加标签。建议使用少量稳定标签
 | 标签 | 使用对象 | 用途 |
 | --- | --- | --- |
 | `event` | 主 Issue | 表示这是一个活动或活动相关事项的主入口 |
+| `internal-improvement` | 主 Issue | 表示组织内部流程、协作方式、制度或工具的改进提议 |
 | `task` | Sub-issue | 表示这是分配给成员执行的具体任务 |
 | `message` | Sub-issue | 表示这是已经正式发送的消息或文案归档 |
 | `mail` | Sub-issue | 表示该消息或任务与邮件有关 |
@@ -125,6 +126,8 @@ Issue 和 Sub-issue 应根据用途添加标签。建议使用少量稳定标签
 标签使用规则：
 
 - 活动主 Issue 应至少添加 `event`
+- 组织内部改进提议应至少添加 `internal-improvement`
+- 如果内部改进提议需要修改文档，可同时添加 `documentation`
 - 任务分配类 Sub-issue 应至少添加 `task`
 - 消息归档类 Sub-issue 应至少添加 `message`
 - 邮件归档建议使用 `message` + `mail`
@@ -132,7 +135,7 @@ Issue 和 Sub-issue 应根据用途添加标签。建议使用少量稳定标签
 - 海报、推文、报名宣传物料相关任务建议使用 `task` + `notification-poster`
 - 活动结束后的复盘或素材整理建议使用 `wrap-up`
 
-如果某个 Issue 只是临时提问、信息待确认或需要额外帮助，可以临时使用 GitHub 默认标签 `question` 或 `help wanted`。确认后应补上对应的活动流程标签。
+如果某个 Issue 只是临时提问、信息待确认或需要额外帮助，可以临时使用 GitHub 默认标签 `question` 或 `help wanted`。确认后应补上对应的活动流程标签或 `internal-improvement`。
 
 ### 6. 从 Issue 创建分支
 
