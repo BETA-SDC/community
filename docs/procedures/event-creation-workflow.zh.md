@@ -86,23 +86,42 @@ Sub-issue 中建议写清楚：
 
 主 Issue 中可以保留一份总 checklist，并链接到对应 Sub-issue。这样负责人能在主 Issue 里看到整体进度，具体讨论则留在各自的 Sub-issue 中。
 
-### 4. Sub-issue 标题规范
+### 4. Issue 标题规范
 
-所有 Sub-issue 标题应遵循以下通用规则：
+所有 Issue 和 Sub-issue 标题都应使用英文半角方括号作为类型前缀。前缀用于快速说明事项性质，负责人、状态、优先级等信息不放在标题前缀中，应通过 assignee、label、project 或 milestone 管理。
 
-- 使用英文半角方括号作为类型前缀，例如 `[task]`、`[message]`
+标题应遵循以下通用规则：
+
+- 使用英文半角方括号作为类型前缀，例如 `[event]`、`[task]`、`[message]`
 - 前缀后空一格，再写活动名称或事项名称
 - 使用 ` - ` 分隔标题中的不同字段
 - 同一活动的 `活动名称` 应保持一致，不要混用简称、中文名和英文名
-- 任务名称应具体到可交付或可检查的结果，避免只写“跟进”“处理”“准备”
+- 事项名称应具体到可交付或可检查的结果，避免只写“跟进”“处理”“准备”
 - 涉及日期时统一使用 `YYYY-MM-DD`
 
-目前使用的 Sub-issue 类型包括：
+目前使用的 Issue 标题类型包括：
 
 | 类型 | 用途 | 标题格式 |
 | --- | --- | --- |
+| `[event]` | 活动主 Issue | `[event] 活动名称` |
+| `[improvement]` | 组织内部流程、制度、工具或协作方式改进提议 | `[improvement] 改进事项名称` |
 | `[task]` | 分配需要成员执行的具体任务 | `[task] 活动名称 - 任务名称` |
 | `[message]` | 归档已经正式发送的通知或宣传文案 | `[message] 活动名称 - 渠道 - YYYY-MM-DD` |
+| `[wrap-up]` | 活动复盘、素材整理或收尾事项 | `[wrap-up] 活动名称 - 收尾事项` |
+| `[question]` | 临时问题、信息待确认或需要讨论的事项 | `[question] 问题简述` |
+| `[docs]` | 文档维护或规范更新 | `[docs] 文档名称或规范名称` |
+
+示例：
+
+```text
+[event] Math Help Room
+[improvement] 建立活动创建标准流程
+[task] Math Help Room - 制作报名表
+[message] Math Help Room - 邮件通知 - 2026-09-09
+[wrap-up] Group Birthday Ceremony - 整理照片素材
+[question] 是否需要统一报名表模板
+[docs] 更新活动流程说明
+```
 
 如果一个 Sub-issue 同时包含任务和消息，应优先按主要用途命名。一般情况下，准备文案属于 `[task]`，正式发送后的文案归档属于 `[message]`。
 
@@ -251,6 +270,7 @@ Sub-issue 需要打上对应的 `message` 标签。这样之后查找“当时�
 在 Pull Request 合并前，建议检查：
 
 - [ ] 原始 Issue 已说明活动背景、负责人和相关人员
+- [ ] 原始 Issue 标题已使用统一类型前缀
 - [ ] 原始 Issue 已添加 `event` 标签
 - [ ] 具体任务已拆成 Sub-issue，并 assign 给对应成员
 - [ ] Sub-issue 标题符合统一格式
