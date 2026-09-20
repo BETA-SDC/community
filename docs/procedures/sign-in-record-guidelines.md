@@ -8,9 +8,9 @@
 
 When an activity has registration, sign-in, on-site additions, cancellations, or needs an actual attendance count, organize sign-in records under the activity materials directory. Sign-in records support activity review, registration conversion checks, reimbursement, and activity summaries. They should not remain only in personal spreadsheets, chat records, or temporary group sign-up threads.
 
-See the [group birthday ceremony sign-in example](https://github.com/BETA-SDC/event-proposal/tree/main/2026-2027/GROUP-BIRTHDAY-01-2026-fall/sign-in), which includes a README and categorized CSV files.
+See the [group birthday ceremony sign-in example](https://github.com/BETA-SDC/event-proposal/tree/main/2026-2027/2026-09-16-GROUP-BIRTHDAY-01-2026-fall/sign-in), which includes a README and categorized CSV files.
 
-Example files include [README.md](https://github.com/BETA-SDC/event-proposal/blob/main/2026-2027/GROUP-BIRTHDAY-01-2026-fall/sign-in/README.md), [00-summary.csv](https://github.com/BETA-SDC/event-proposal/blob/main/2026-2027/GROUP-BIRTHDAY-01-2026-fall/sign-in/00-summary.csv), [01-registered-attended.csv](https://github.com/BETA-SDC/event-proposal/blob/main/2026-2027/GROUP-BIRTHDAY-01-2026-fall/sign-in/01-registered-attended.csv), [02-registered-absent.csv](https://github.com/BETA-SDC/event-proposal/blob/main/2026-2027/GROUP-BIRTHDAY-01-2026-fall/sign-in/02-registered-absent.csv), [03-registered-cancelled.csv](https://github.com/BETA-SDC/event-proposal/blob/main/2026-2027/GROUP-BIRTHDAY-01-2026-fall/sign-in/03-registered-cancelled.csv), and [04-unregistered-attended.csv](https://github.com/BETA-SDC/event-proposal/blob/main/2026-2027/GROUP-BIRTHDAY-01-2026-fall/sign-in/04-unregistered-attended.csv).
+Example files include [README.md](https://github.com/BETA-SDC/event-proposal/blob/main/2026-2027/2026-09-16-GROUP-BIRTHDAY-01-2026-fall/sign-in/README.md), [00-summary.csv](https://github.com/BETA-SDC/event-proposal/blob/main/2026-2027/2026-09-16-GROUP-BIRTHDAY-01-2026-fall/sign-in/00-summary.csv), [01-registered-attended.csv](https://github.com/BETA-SDC/event-proposal/blob/main/2026-2027/2026-09-16-GROUP-BIRTHDAY-01-2026-fall/sign-in/01-registered-attended.csv), [02-registered-absent.csv](https://github.com/BETA-SDC/event-proposal/blob/main/2026-2027/2026-09-16-GROUP-BIRTHDAY-01-2026-fall/sign-in/02-registered-absent.csv), [03-registered-cancelled.csv](https://github.com/BETA-SDC/event-proposal/blob/main/2026-2027/2026-09-16-GROUP-BIRTHDAY-01-2026-fall/sign-in/03-registered-cancelled.csv), and [04-unregistered-attended.csv](https://github.com/BETA-SDC/event-proposal/blob/main/2026-2027/2026-09-16-GROUP-BIRTHDAY-01-2026-fall/sign-in/04-unregistered-attended.csv).
 
 ## Location
 
@@ -19,7 +19,7 @@ Sign-in records should be stored in a `sign-in/` subdirectory under the correspo
 Recommended structure:
 
 ```text
-GROUP-BIRTHDAY-01-2026-fall/
+2026-09-16-GROUP-BIRTHDAY-01-2026-fall/
   sign-in/
     README.md
     00-summary.csv

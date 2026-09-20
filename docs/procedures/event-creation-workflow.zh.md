@@ -296,20 +296,20 @@ Issue 编号统一使用两位数字，不足两位时在前面补 `0`，例如 
 > [!IMPORTANT]
 > 需要出海报时，应根据 [event-proposal 仓库](https://github.com/BETA-SDC/event-proposal)中的[海报信息模板](https://github.com/BETA-SDC/event-proposal/blob/main/template-for-poster-information.md)填写完整信息，包括活动标题、时间地点、主办方、报名方式、报名链接、联系人、展示文案和其他必须出现在海报上的内容。如果海报需要使用特定图片，应在海报信息表中说明图片内容、来源、使用位置或风格要求，并确保原图或参考图已作为对应 Sub-issue 的附件提交。
 
-文件放置位置应符合对应仓库的目录结构。例如活动策划和海报信息通常放在 [event-proposal 仓库的学年目录](https://github.com/BETA-SDC/event-proposal/tree/main/2026-2027)下，并使用系列代号、两位期数和本期主题命名文件夹。可参考示例文件 [proposal.md](https://github.com/BETA-SDC/event-proposal/blob/main/2026-2027/MATH-HELP-ROOM-01-calculus-and-linear-algebra/proposal.md) 和 [poster-information.md](https://github.com/BETA-SDC/event-proposal/blob/main/2026-2027/MATH-HELP-ROOM-01-calculus-and-linear-algebra/poster-information.md)。
+文件放置位置应符合对应仓库的目录结构。例如活动策划和海报信息通常放在 [event-proposal 仓库的学年目录](https://github.com/BETA-SDC/event-proposal/tree/main/2026-2027)下，并使用活动日期、系列代号、两位期数和必要主题命名文件夹。可参考示例文件 [proposal.md](https://github.com/BETA-SDC/event-proposal/blob/main/2026-2027/2026-09-09-MATH-HELP-ROOM-01/proposal.md) 和 [poster-information.md](https://github.com/BETA-SDC/event-proposal/blob/main/2026-2027/2026-09-09-MATH-HELP-ROOM-01/poster-information.md)。
 
 推荐活动文件夹命名格式：
 
 ```text
-SERIES-两位期数-specific-topic
+YYYY-MM-DD-SERIES-两位期数[-specific-topic]
 ```
 
-系列活动使用全大写系列代号和两位期数，例如 `BETA-MEET-01`、`MATH-HELP-ROOM-01`。活动目录不再以日期开头；活动时间应记录在 Issue、Sub-issue、Pull Request、通知归档和活动材料正文中。非系列活动可以使用简洁的小写主题目录，例如 [self-study-check-in](https://github.com/BETA-SDC/event-proposal/tree/main/2026-2027/self-study-check-in)。
+系列活动使用日期、全大写系列代号和两位期数，例如 `2026-09-29-BETA-MEET-01-the-field-experience-of-an-ecologist`、`2026-09-09-MATH-HELP-ROOM-01`。如果系列名和期数已经足够清楚，可以省略本期主题。非系列活动可以使用 `YYYY-MM-DD-specific-topic`，例如 [2026-09-19-self-study-check-in](https://github.com/BETA-SDC/event-proposal/tree/main/2026-2027/2026-09-19-self-study-check-in)。
 
 示例：
 
-- [MATH-HELP-ROOM-01-calculus-and-linear-algebra](https://github.com/BETA-SDC/event-proposal/tree/main/2026-2027/MATH-HELP-ROOM-01-calculus-and-linear-algebra)
-- [GROUP-BIRTHDAY-01-2026-fall](https://github.com/BETA-SDC/event-proposal/tree/main/2026-2027/GROUP-BIRTHDAY-01-2026-fall)
+- [2026-09-09-MATH-HELP-ROOM-01](https://github.com/BETA-SDC/event-proposal/tree/main/2026-2027/2026-09-09-MATH-HELP-ROOM-01)
+- [2026-09-16-GROUP-BIRTHDAY-01-2026-fall](https://github.com/BETA-SDC/event-proposal/tree/main/2026-2027/2026-09-16-GROUP-BIRTHDAY-01-2026-fall)
 
 更完整的仓库内命名规则见 [event-proposal 仓库文件命名规范](./event-proposal-repo-naming-regulation.zh.md)。
 
@@ -377,7 +377,7 @@ Sub-issue 需要打上对应的 `message` 标签。这样之后查找“当时�
 - 后续需要复盘的问题
 - 是否有可复用的模板、文案或流程
 
-如果活动有报名、签到、现场补录或到场统计，应参考 [签到记录整理规范](./sign-in-record-guidelines.zh.md)，在活动材料目录下建立 `sign-in/` 子目录，保存 `README.md`、`00-summary.csv` 和分类后的名单 CSV。可参考 [集体生日会签到记录样例](https://github.com/BETA-SDC/event-proposal/tree/main/2026-2027/GROUP-BIRTHDAY-01-2026-fall/sign-in)。
+如果活动有报名、签到、现场补录或到场统计，应参考 [签到记录整理规范](./sign-in-record-guidelines.zh.md)，在活动材料目录下建立 `sign-in/` 子目录，保存 `README.md`、`00-summary.csv` 和分类后的名单 CSV。可参考 [集体生日会签到记录样例](https://github.com/BETA-SDC/event-proposal/tree/main/2026-2027/2026-09-16-GROUP-BIRTHDAY-01-2026-fall/sign-in)。
 
 > [!IMPORTANT]
 > 活动照片和视频应上传到 [Beta College Album](https://westlakeu.sharepoint.com/sites/beta-college/Album/Forms/AllItems.aspx?viewid=f4bff7b2%2Ddd12%2D43eb%2Da665%2Dd945dfd194c3)，并按日期和活动名称整理文件夹。不要只把照片、视频留在聊天记录或个人设备中。

@@ -20,11 +20,11 @@ Issue titles, Sub-issue titles, branch names, and label rules still follow the [
 
 ## Principles
 
-- **Directories describe the series, session number, and session topic; files describe material types.** Activity directory names should prioritize the series so events in the same series naturally group together. Keep file names as stable material type names.
-- **Do not put dates in activity directory names.** Activity time is already recorded in Issues, Sub-issues, Pull Requests, message archives, and activity material content, so directories should not start with dates.
-- **Use uppercase, stable, and recognizable series codes.** Put the series code first, such as `BETA-MEET`, `MATH-HELP-ROOM`, or `GROUP-BIRTHDAY`. The series code should identify the stable series; do not put the year, season, or session topic in it, and do not shorten away an inherent part of the series name.
+- **Directories describe the date, series, session number, and necessary topic; files describe material types.** Activity directory names start with the activity date, then identify the series so activities can sort by time while still showing the series. Keep file names as stable material type names.
+- **Start activity directories with dates.** Use `YYYY-MM-DD` at the beginning of the activity directory name.
+- **Use uppercase, stable, and recognizable series codes.** Put the series code after the date, such as `BETA-MEET`, `MATH-HELP-ROOM`, or `GROUP-BIRTHDAY`. The series code should identify the stable series; do not put the year, season, or session topic in it, and do not shorten away an inherent part of the series name.
 - **Use two-digit session numbers.** Put a two-digit session number after the series code, such as `01`, `02`, not `1`, `2`.
-- **Use lowercase English and hyphens for the topic.** The specific session topic uses `kebab-case`; avoid spaces, Chinese punctuation, mixed capitalization, and temporary descriptions.
+- **Use lowercase English and hyphens for the topic, and omit it when unnecessary.** The specific session topic uses `kebab-case`; avoid spaces, Chinese punctuation, mixed capitalization, and temporary descriptions. If the series name and session number are already clear, such as `MATH-HELP-ROOM-01`, the topic may be omitted.
 - **Keep one main directory per activity.** Proposal, poster, sign-in, notification, and review materials for one activity should live under the same activity directory.
 - **Avoid status words in file names.** Do not use words such as `final`, `new`, `latest`, or `revised`; status should be reflected in Git history, Pull Requests, or file content.
 
@@ -38,7 +38,7 @@ event-proposal/
   README.zh.md
   template-for-poster-information.md
   YYYY-YYYY/
-    SERIES-two-digit-session-specific-topic/
+    YYYY-MM-DD-SERIES-two-digit-session[-specific-topic]/
       README.md
       proposal.md
       poster-information.md
@@ -55,12 +55,12 @@ event-proposal/
 Existing examples:
 
 - [2026-2027](https://github.com/BETA-SDC/event-proposal/tree/main/2026-2027)
-- [BETA-MEET-01-the-field-experience-of-an-ecologist](https://github.com/BETA-SDC/event-proposal/tree/main/2026-2027/BETA-MEET-01-the-field-experience-of-an-ecologist)
-- [MATH-HELP-ROOM-01-calculus-and-linear-algebra](https://github.com/BETA-SDC/event-proposal/tree/main/2026-2027/MATH-HELP-ROOM-01-calculus-and-linear-algebra)
-- [GROUP-BIRTHDAY-01-2026-fall](https://github.com/BETA-SDC/event-proposal/tree/main/2026-2027/GROUP-BIRTHDAY-01-2026-fall)
-- [self-study-check-in](https://github.com/BETA-SDC/event-proposal/tree/main/2026-2027/self-study-check-in)
+- [2026-09-29-BETA-MEET-01-the-field-experience-of-an-ecologist](https://github.com/BETA-SDC/event-proposal/tree/main/2026-2027/2026-09-29-BETA-MEET-01-the-field-experience-of-an-ecologist)
+- [2026-09-09-MATH-HELP-ROOM-01](https://github.com/BETA-SDC/event-proposal/tree/main/2026-2027/2026-09-09-MATH-HELP-ROOM-01)
+- [2026-09-16-GROUP-BIRTHDAY-01-2026-fall](https://github.com/BETA-SDC/event-proposal/tree/main/2026-2027/2026-09-16-GROUP-BIRTHDAY-01-2026-fall)
+- [2026-09-19-self-study-check-in](https://github.com/BETA-SDC/event-proposal/tree/main/2026-2027/2026-09-19-self-study-check-in)
 
-The activity directories above are current naming examples. `self-study-check-in` is the non-series example; the other activity directories use the series activity naming format.
+The activity directories above are current naming examples. `2026-09-19-self-study-check-in` is the non-series example; the other activity directories use the series activity naming format.
 
 ## Academic Year Directory Names
 
@@ -78,28 +78,37 @@ Academic year directories should only identify the academic year. Do not use the
 
 ## Activity Directory Names
 
-Activity directories use:
+Series activity directories use:
 
 ```text
-SERIES-two-digit-session-specific-topic
+YYYY-MM-DD-SERIES-two-digit-session[-specific-topic]
 ```
 
 Field meanings:
 
-- `SERIES`: series code, placed first, using uppercase English letters and hyphens, such as `BETA-MEET`, `MATH-HELP-ROOM`, or `GROUP-BIRTHDAY`; the series name should be stable and recognizable, without the year, season, or session topic
+- `YYYY-MM-DD`: activity date, placed first
+- `SERIES`: series code, placed after the date, using uppercase English letters and hyphens, such as `BETA-MEET`, `MATH-HELP-ROOM`, or `GROUP-BIRTHDAY`; the series name should be stable and recognizable, without the year, season, or session topic
 - `two-digit-session`: the session number in that series, using `01`, `02`, `03`
-- `specific-topic`: the specific topic of this session, using lowercase English and hyphens
+- `specific-topic`: the specific topic of this session, using lowercase English and hyphens; it may be omitted when the series name and session number are already clear
 
 Examples:
 
 ```text
-BETA-MEET-01-the-field-experience-of-an-ecologist
-BETA-MEET-02-topic-of-the-next-session
-MATH-HELP-ROOM-01-calculus-and-linear-algebra
-GROUP-BIRTHDAY-01-2026-fall
+2026-09-29-BETA-MEET-01-the-field-experience-of-an-ecologist
+2026-10-15-BETA-MEET-02-topic-of-the-next-session
+2026-09-09-MATH-HELP-ROOM-01
+2026-09-16-GROUP-BIRTHDAY-01-2026-fall
 ```
 
-With this format, activities in the same series naturally group together by directory name. Dates can still be recorded in the [main activity Issue](./event-creation-workflow.md), message archive Sub-issues, `proposal.md`, and `poster-information.md`.
+Non-series activity directories use:
+
+```text
+YYYY-MM-DD-specific-topic
+```
+
+For example, `2026-09-19-self-study-check-in`.
+
+With this format, activities naturally sort by date while the series code and session number remain clear.
 
 Not recommended:
 
@@ -150,8 +159,8 @@ Activity proposals should be named `proposal.md`.
 
 Examples:
 
-- [MATH-HELP-ROOM-01-calculus-and-linear-algebra/proposal.md](https://github.com/BETA-SDC/event-proposal/blob/main/2026-2027/MATH-HELP-ROOM-01-calculus-and-linear-algebra/proposal.md)
-- [GROUP-BIRTHDAY-01-2026-fall/proposal.md](https://github.com/BETA-SDC/event-proposal/blob/main/2026-2027/GROUP-BIRTHDAY-01-2026-fall/proposal.md)
+- [2026-09-09-MATH-HELP-ROOM-01/proposal.md](https://github.com/BETA-SDC/event-proposal/blob/main/2026-2027/2026-09-09-MATH-HELP-ROOM-01/proposal.md)
+- [2026-09-16-GROUP-BIRTHDAY-01-2026-fall/proposal.md](https://github.com/BETA-SDC/event-proposal/blob/main/2026-2027/2026-09-16-GROUP-BIRTHDAY-01-2026-fall/proposal.md)
 
 Do not repeat the activity name in the file name, such as `math-help-room-proposal.md`. The activity name is already expressed by the parent directory.
 
@@ -161,8 +170,8 @@ Poster information forms should be named `poster-information.md`, with content b
 
 Examples:
 
-- [MATH-HELP-ROOM-01-calculus-and-linear-algebra/poster-information.md](https://github.com/BETA-SDC/event-proposal/blob/main/2026-2027/MATH-HELP-ROOM-01-calculus-and-linear-algebra/poster-information.md)
-- [self-study-check-in/poster-information.md](https://github.com/BETA-SDC/event-proposal/blob/main/2026-2027/self-study-check-in/poster-information.md)
+- [2026-09-09-MATH-HELP-ROOM-01/poster-information.md](https://github.com/BETA-SDC/event-proposal/blob/main/2026-2027/2026-09-09-MATH-HELP-ROOM-01/poster-information.md)
+- [2026-09-19-self-study-check-in/poster-information.md](https://github.com/BETA-SDC/event-proposal/blob/main/2026-2027/2026-09-19-self-study-check-in/poster-information.md)
 
 ### Notification Copy
 
@@ -170,7 +179,7 @@ Notification copy drafts are not required files. Add `notification-message.md` o
 
 If one activity has multiple official sending channels, record them as sections inside the file instead of stacking channel names in the file name. After official sending, the archive should still be created as a `[message]` Sub-issue under the corresponding activity main Issue; the file is only a branch material draft or backup.
 
-The historical file [notification-message.md](https://github.com/BETA-SDC/event-proposal/blob/main/2026-2027/GROUP-BIRTHDAY-01-2026-fall/notification-message.md) may stay for now. New files should use `notification-message.md`; historical names can be corrected later in a separate Pull Request if needed.
+The existing example file [notification-message.md](https://github.com/BETA-SDC/event-proposal/blob/main/2026-2027/2026-09-16-GROUP-BIRTHDAY-01-2026-fall/notification-message.md) uses this name. New notification copy drafts should also use `notification-message.md`.
 
 ### Sign-In Records
 
@@ -178,12 +187,12 @@ Sign-in records go under `sign-in/`. See the [Sign-In Record Guidelines](./sign-
 
 Existing examples:
 
-- [sign-in/README.md](https://github.com/BETA-SDC/event-proposal/blob/main/2026-2027/GROUP-BIRTHDAY-01-2026-fall/sign-in/README.md)
-- [sign-in/00-summary.csv](https://github.com/BETA-SDC/event-proposal/blob/main/2026-2027/GROUP-BIRTHDAY-01-2026-fall/sign-in/00-summary.csv)
-- [sign-in/01-registered-attended.csv](https://github.com/BETA-SDC/event-proposal/blob/main/2026-2027/GROUP-BIRTHDAY-01-2026-fall/sign-in/01-registered-attended.csv)
-- [sign-in/02-registered-absent.csv](https://github.com/BETA-SDC/event-proposal/blob/main/2026-2027/GROUP-BIRTHDAY-01-2026-fall/sign-in/02-registered-absent.csv)
-- [sign-in/03-registered-cancelled.csv](https://github.com/BETA-SDC/event-proposal/blob/main/2026-2027/GROUP-BIRTHDAY-01-2026-fall/sign-in/03-registered-cancelled.csv)
-- [sign-in/04-unregistered-attended.csv](https://github.com/BETA-SDC/event-proposal/blob/main/2026-2027/GROUP-BIRTHDAY-01-2026-fall/sign-in/04-unregistered-attended.csv)
+- [sign-in/README.md](https://github.com/BETA-SDC/event-proposal/blob/main/2026-2027/2026-09-16-GROUP-BIRTHDAY-01-2026-fall/sign-in/README.md)
+- [sign-in/00-summary.csv](https://github.com/BETA-SDC/event-proposal/blob/main/2026-2027/2026-09-16-GROUP-BIRTHDAY-01-2026-fall/sign-in/00-summary.csv)
+- [sign-in/01-registered-attended.csv](https://github.com/BETA-SDC/event-proposal/blob/main/2026-2027/2026-09-16-GROUP-BIRTHDAY-01-2026-fall/sign-in/01-registered-attended.csv)
+- [sign-in/02-registered-absent.csv](https://github.com/BETA-SDC/event-proposal/blob/main/2026-2027/2026-09-16-GROUP-BIRTHDAY-01-2026-fall/sign-in/02-registered-absent.csv)
+- [sign-in/03-registered-cancelled.csv](https://github.com/BETA-SDC/event-proposal/blob/main/2026-2027/2026-09-16-GROUP-BIRTHDAY-01-2026-fall/sign-in/03-registered-cancelled.csv)
+- [sign-in/04-unregistered-attended.csv](https://github.com/BETA-SDC/event-proposal/blob/main/2026-2027/2026-09-16-GROUP-BIRTHDAY-01-2026-fall/sign-in/04-unregistered-attended.csv)
 
 ## When to Add Files
 
@@ -205,10 +214,10 @@ The following should not usually be committed directly:
 
 ## Pre-Submission Checklist
 
-- [ ] Activity directory follows `SERIES-two-digit-session-specific-topic`
+- [ ] Activity directory follows `YYYY-MM-DD-SERIES-two-digit-session[-specific-topic]`, and non-series activities follow `YYYY-MM-DD-specific-topic`
 - [ ] Series code is uppercase, stable, and recognizable, such as `BETA-MEET`, `MATH-HELP-ROOM`, or `GROUP-BIRTHDAY`
 - [ ] Session number uses two digits, such as `01`
-- [ ] Topic and file names use lowercase English and hyphens
+- [ ] Topic and file names use lowercase English and hyphens; the topic may be omitted when the series name and session number are already clear
 - [ ] Activity directory includes `README.md` and links to the corresponding main activity Issue
 - [ ] Proposal uses `proposal.md`
 - [ ] Poster information form uses `poster-information.md`
