@@ -13,12 +13,13 @@ General rules:
 - Use fixed prefixes such as `[event]`, `[task]`, and `[message]`
 - Add one space after the prefix, then write the activity or item name
 - A main activity Issue usually contains only the activity name and does not need extra fields
-- Sub-issues should use ` - ` to separate the activity name, task, channel, date, or other fields, keeping parent-child relationships and item levels clear
+- Sub-issue titles must include the parent activity or item name; do not write only the task itself
+- Sub-issues use ` - `, with spaces on both sides, to separate the parent, task, channel, date, or other fields, keeping parent-child relationships and item levels clear
 - Keep the activity name consistent for the same activity
 - Use `YYYY-MM-DD` for dates
 
 > [!TIP]
-> `[event] BETA MEET: The Field Experience of an Ecologist` is a main activity Issue title. `[task] BETA MEET: The Field Experience of an Ecologist - Create poster` is the corresponding Sub-issue title.
+> `[event] BETA MEET: The Field Experience of an Ecologist` is a main activity Issue title. `[task] BETA MEET: The Field Experience of an Ecologist - Create poster` is the corresponding Sub-issue title. Do not write `[task] Create poster` or `[task] BETA MEET: The Field Experience of an Ecologist-Create poster`.
 
 ## Common Title Formats
 

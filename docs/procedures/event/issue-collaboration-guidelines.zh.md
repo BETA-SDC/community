@@ -13,12 +13,13 @@
 - 前缀使用 `[event]`、`[task]`、`[message]` 等固定形式
 - 前缀后空一格，再写活动名称或事项名称
 - 活动主 Issue 通常只写活动名称，不需要额外字段
-- Sub-issue 建议使用 ` - ` 分隔活动名称、任务、渠道、日期等字段，让父子关系和事项层级更清楚
+- Sub-issue 标题必须带上 parent 活动名称或事项名称，不能只写任务本身
+- Sub-issue 使用前后带空格的 ` - ` 分隔 parent、任务、渠道、日期等字段，让父子关系和事项层级更清楚
 - 同一活动的活动名称应保持一致
 - 涉及日期时统一使用 `YYYY-MM-DD`
 
 > [!TIP]
-> `[event] BETA MEET: The Field Experience of an Ecologist` 是活动主 Issue 标题；`[task] BETA MEET: The Field Experience of an Ecologist - 制作海报` 是对应 Sub-issue 标题。
+> `[event] BETA MEET: The Field Experience of an Ecologist` 是活动主 Issue 标题；`[task] BETA MEET: The Field Experience of an Ecologist - 制作海报` 是对应 Sub-issue 标题。不要写成 `[task] 制作海报` 或 `[task] BETA MEET: The Field Experience of an Ecologist-制作海报`。
 
 ## 常用标题格式
 

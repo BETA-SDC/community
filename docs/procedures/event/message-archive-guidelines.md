@@ -51,7 +51,7 @@ Examples:
 [message] Group Birthday Ceremony - WeChat group notice - 2026-09-16
 ```
 
-The activity name should match the main activity Issue. The channel should name the actual sending channel, such as `Email notice`, `WeChat group notice`, or `Official account post`. Because the archive is a Sub-issue under the main activity Issue, use ` - ` to separate fields and make the parent-child level easier to read.
+The activity name should match the main activity Issue. The channel should name the actual sending channel, such as `Email notice`, `WeChat group notice`, or `Official account post`. Because the archive is a Sub-issue under the main activity Issue, the title must include the parent activity name and use ` - `, with spaces on both sides, to separate fields and make the parent-child level easier to read.
 
 ## Sub-Issue Content
 
