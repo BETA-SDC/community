@@ -19,8 +19,8 @@
 - [2025–2026 学年成员名册](members/2025-2026.csv)
 - [文档总入口](docs/README.zh.md)
 - [2026 年值日与大扫除规章](docs/regulations/duty_roster_regulation_2026.md)
-- [活动建立规范流程](docs/procedures/event-creation-workflow.zh.md)
-- [素材拍摄与交付规范](docs/procedures/media-capture-guidelines.zh.md)
+- [活动与宣传](docs/procedures/event/README.zh.md)
+- [素材拍摄与交付规范](docs/procedures/event/media-capture-guidelines.zh.md)
 - [为什么使用 GitHub](docs/resources/why-we-use-github.md)
 - [Logo 与视觉素材说明](logos/README.md)
 

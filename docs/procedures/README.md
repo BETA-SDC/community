@@ -4,8 +4,6 @@
 
 This directory stores repeatable workflows and operating procedures for the organization. They answer “how should this be done” and are different from the formal requirements in [`regulations/`](../regulations/).
 
-## Activities and Publicity
+## Topics
 
-- [Event Creation Workflow](./event-creation-workflow.md)
-- [Media Capture Guidelines](./media-capture-guidelines.md)
-- [Sign-In Record Guidelines](./sign-in-record-guidelines.md)
+- [Activities and Publicity](./event/README.md)
