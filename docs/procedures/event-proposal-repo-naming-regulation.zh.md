@@ -22,7 +22,7 @@ Issue 标题、Sub-issue 标题、分支名称和标签规则仍以 [活动建�
 
 - **目录表达系列、期数和本期主题，文件表达材料类型。** 活动目录名优先体现系列活动，使同一系列自然聚在一起；文件名尽量使用稳定的材料类型名称。
 - **活动目录不带日期。** 活动时间由 Issue、Sub-issue、Pull Request、通知归档和活动材料正文记录，目录名不再以日期开头。
-- **系列代号全大写且尽量简洁。** 系列活动放在目录名最前面，例如 `BETA-MEET`、`GROUP-BIRTHDAY`。系列代号只表达稳定系列，不放年份、季节或本期主题。
+- **系列代号全大写、稳定且可识别。** 系列活动放在目录名最前面，例如 `BETA-MEET`、`MATH-HELP-ROOM`、`GROUP-BIRTHDAY`。系列代号应表达稳定系列，不放年份、季节或本期主题，也不为了简短而删掉系列固有名称。
 - **期数使用两位数字。** 系列代号后接两位期数，例如 `01`、`02`，不要使用 `1`、`2`。
 - **主题使用英文小写和连字符。** 本期具体主题使用 `kebab-case`，避免空格、中文标点、大小写混用和临时描述。
 - **同一活动只保留一个主目录。** 同一活动的策划、海报、签到、通知和复盘材料都应放在同一活动目录下。
@@ -83,7 +83,7 @@ SERIES-两位期数-specific-topic
 
 字段说明：
 
-- `SERIES`：系列活动代号，放在最前面，使用全大写英文和连字符，例如 `BETA-MEET`、`GROUP-BIRTHDAY`；系列名应简洁稳定，不放年份、季节或本期主题
+- `SERIES`：系列活动代号，放在最前面，使用全大写英文和连字符，例如 `BETA-MEET`、`MATH-HELP-ROOM`、`GROUP-BIRTHDAY`；系列名应稳定可识别，不放年份、季节或本期主题
 - `两位期数`：该系列的第几期，使用 `01`、`02`、`03`
 - `specific-topic`：本期活动具体主题，使用英文小写和连字符
 
@@ -92,7 +92,7 @@ SERIES-两位期数-specific-topic
 ```text
 BETA-MEET-01-the-field-experience-of-an-ecologist
 BETA-MEET-02-topic-of-the-next-session
-MATH-HELP-01-calculus-review
+MATH-HELP-ROOM-01-calculus-review
 GROUP-BIRTHDAY-01-2026-fall
 ```
 
@@ -174,7 +174,7 @@ GROUP-BIRTHDAY-2026-FALL-01
 ## 提交前检查
 
 - [ ] 活动目录符合 `SERIES-两位期数-specific-topic`
-- [ ] 系列代号全大写且简洁稳定，例如 `BETA-MEET`、`GROUP-BIRTHDAY`
+- [ ] 系列代号全大写、稳定且可识别，例如 `BETA-MEET`、`MATH-HELP-ROOM`、`GROUP-BIRTHDAY`
 - [ ] 期数使用两位数字，例如 `01`
 - [ ] 主题和文件名使用英文小写和连字符
 - [ ] 策划案使用 `proposal.md`
