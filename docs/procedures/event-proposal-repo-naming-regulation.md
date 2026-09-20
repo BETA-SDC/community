@@ -22,7 +22,7 @@ Issue titles, Sub-issue titles, branch names, and label rules still follow the [
 
 - **Directories describe the series, session number, and session topic; files describe material types.** Activity directory names should prioritize the series so events in the same series naturally group together. Keep file names as stable material type names.
 - **Do not put dates in activity directory names.** Activity time is already recorded in Issues, Sub-issues, Pull Requests, message archives, and activity material content, so directories should not start with dates.
-- **Use uppercase series codes.** Put the series code first, such as `BETA-MEET`. Uppercase is reserved for this classification prefix.
+- **Use uppercase and concise series codes.** Put the series code first, such as `BETA-MEET` or `GROUP-BIRTHDAY`. The series code should only identify the stable series; do not put the year, season, or session topic in it.
 - **Use two-digit session numbers.** Put a two-digit session number after the series code, such as `01`, `02`, not `1`, `2`.
 - **Use lowercase English and hyphens for the topic.** The specific session topic uses `kebab-case`; avoid spaces, Chinese punctuation, mixed capitalization, and temporary descriptions.
 - **Keep one main directory per activity.** Proposal, poster, sign-in, notification, and review materials for one activity should live under the same activity directory.
@@ -83,7 +83,7 @@ SERIES-two-digit-session-specific-topic
 
 Field meanings:
 
-- `SERIES`: series code, placed first, using uppercase English letters and hyphens, such as `BETA-MEET`
+- `SERIES`: series code, placed first, using uppercase English letters and hyphens, such as `BETA-MEET` or `GROUP-BIRTHDAY`; the series name should be concise and stable, without the year, season, or session topic
 - `two-digit-session`: the session number in that series, using `01`, `02`, `03`
 - `specific-topic`: the specific topic of this session, using lowercase English and hyphens
 
@@ -93,7 +93,7 @@ Examples:
 BETA-MEET-01-the-field-experience-of-an-ecologist
 BETA-MEET-02-topic-of-the-next-session
 MATH-HELP-01-calculus-review
-GROUP-BIRTHDAY-01-autumn-birthday-ceremony
+GROUP-BIRTHDAY-01-2026-fall
 ```
 
 With this format, activities in the same series naturally group together by directory name. Dates can still be recorded in the [main activity Issue](./event-creation-workflow.md), message archive Sub-issues, `proposal.md`, and `poster-information.md`.
@@ -107,6 +107,7 @@ BETA-MEET-1-the-field-experience-of-an-ecologist
 beta-meet-01-the-field-experience-of-an-ecologist
 BETA-MEET-01
 BETA-MEET-01-final
+GROUP-BIRTHDAY-2026-FALL-01
 生日会材料
 ```
 
@@ -173,7 +174,7 @@ The following should not usually be committed directly:
 ## Pre-Submission Checklist
 
 - [ ] Activity directory follows `SERIES-two-digit-session-specific-topic`
-- [ ] Series code is uppercase, such as `BETA-MEET`
+- [ ] Series code is uppercase, concise, and stable, such as `BETA-MEET` or `GROUP-BIRTHDAY`
 - [ ] Session number uses two digits, such as `01`
 - [ ] Topic and file names use lowercase English and hyphens
 - [ ] Proposal uses `proposal.md`
