@@ -296,20 +296,22 @@ All activity-related files should be completed on the activity branch, including
 > [!IMPORTANT]
 > When a poster is needed, fill in complete information using the [poster information template](https://github.com/BETA-SDC/event-proposal/blob/main/template-for-poster-information.md) in the [event-proposal repository](https://github.com/BETA-SDC/event-proposal). Include the activity title, time and location, organizer, registration method, registration link, contact person, display copy, and other information that must appear on the poster. If the poster needs specific images, explain the image content, source, placement, or style requirements in the poster information form, and make sure the original images or references have been attached to the corresponding Sub-issue.
 
-File locations should follow the repository's directory structure. For example, activity proposals and poster information usually go under the school-year directory in the [event-proposal repository](https://github.com/BETA-SDC/event-proposal/tree/main/2026-2027), using a folder name based on the date and activity name. See example files [proposal.md](https://github.com/BETA-SDC/event-proposal/blob/main/2026-2027/2026-09-09-math-help-group-01/proposal.md) and [poster-information.md](https://github.com/BETA-SDC/event-proposal/blob/main/2026-2027/2026-09-09-math-help-group-01/poster-information.md).
+File locations should follow the repository's directory structure. For example, activity proposals and poster information usually go under the school-year directory in the [event-proposal repository](https://github.com/BETA-SDC/event-proposal/tree/main/2026-2027), using a folder name based on the series code, two-digit session number, and session topic. See example files [proposal.md](https://github.com/BETA-SDC/event-proposal/blob/main/2026-2027/MATH-HELP-ROOM-01-calculus-and-linear-algebra/proposal.md) and [poster-information.md](https://github.com/BETA-SDC/event-proposal/blob/main/2026-2027/MATH-HELP-ROOM-01-calculus-and-linear-algebra/poster-information.md).
 
 Recommended activity folder naming format:
 
 ```text
-YYYY-MM-DD-activity-name-two-digit-sequence
+SERIES-two-digit-session-specific-topic
 ```
 
-When multiple versions, batches, or same-name items need to be distinguished under the same date or activity name, use a two-digit sequence at the end, such as `01` and `02`. Historical directories using one-digit suffixes such as `-1` or `-2` should be corrected to `-01` or `-02` when this does not disrupt ongoing Pull Requests or existing links.
+Series activities use an uppercase series code and a two-digit session number, such as `BETA-MEET-01` or `MATH-HELP-ROOM-01`. Activity directories should not start with dates; activity time should be recorded in Issues, Sub-issues, Pull Requests, message archives, and activity material content. Non-series activities may use a concise lowercase topic directory, such as [self-study-check-in](https://github.com/BETA-SDC/event-proposal/tree/main/2026-2027/self-study-check-in).
 
 Examples:
 
-- [2026-09-09-math-help-group-01](https://github.com/BETA-SDC/event-proposal/tree/main/2026-2027/2026-09-09-math-help-group-01)
-- [2026-09-16-group-birthday-ceremony-01](https://github.com/BETA-SDC/event-proposal/tree/main/2026-2027/2026-09-16-group-birthday-ceremony-01)
+- [MATH-HELP-ROOM-01-calculus-and-linear-algebra](https://github.com/BETA-SDC/event-proposal/tree/main/2026-2027/MATH-HELP-ROOM-01-calculus-and-linear-algebra)
+- [GROUP-BIRTHDAY-01-2026-fall](https://github.com/BETA-SDC/event-proposal/tree/main/2026-2027/GROUP-BIRTHDAY-01-2026-fall)
+
+For complete in-repository naming rules, see the [event-proposal Repository File Naming Rules](./event-proposal-repo-naming-regulation.md).
 
 During collaboration, write important decisions back to the Issue or relevant Markdown files rather than leaving them only in chat records.
 
@@ -375,7 +377,7 @@ After the activity ends, the owner should add the following information as appro
 - Issues that need review
 - Reusable templates, copy, or workflows
 
-If the activity has registration, sign-in, on-site additions, or attendance statistics, follow the [Sign-In Record Guidelines](./sign-in-record-guidelines.md) and create a `sign-in/` subdirectory under the activity materials directory. Save `README.md`, `00-summary.csv`, and categorized list CSV files there. See the [group birthday ceremony sign-in example](https://github.com/BETA-SDC/event-proposal/tree/main/2026-2027/2026-09-16-group-birthday-ceremony-01/sign-in).
+If the activity has registration, sign-in, on-site additions, or attendance statistics, follow the [Sign-In Record Guidelines](./sign-in-record-guidelines.md) and create a `sign-in/` subdirectory under the activity materials directory. Save `README.md`, `00-summary.csv`, and categorized list CSV files there. See the [group birthday ceremony sign-in example](https://github.com/BETA-SDC/event-proposal/tree/main/2026-2027/GROUP-BIRTHDAY-01-2026-fall/sign-in).
 
 > [!IMPORTANT]
 > Activity photos and videos should be uploaded to the [Beta College Album](https://westlakeu.sharepoint.com/sites/beta-college/Album/Forms/AllItems.aspx?viewid=f4bff7b2%2Ddd12%2D43eb%2Da665%2Dd945dfd194c3), with folders organized by date and activity name. Do not leave photos or videos only in chat records or on personal devices.

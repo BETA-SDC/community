@@ -55,10 +55,12 @@ event-proposal/
 现有示例：
 
 - [2026-2027](https://github.com/BETA-SDC/event-proposal/tree/main/2026-2027)
-- [2026-09-09-math-help-group-01](https://github.com/BETA-SDC/event-proposal/tree/main/2026-2027/2026-09-09-math-help-group-01)
-- [2026-09-16-group-birthday-ceremony-01](https://github.com/BETA-SDC/event-proposal/tree/main/2026-2027/2026-09-16-group-birthday-ceremony-01)
+- [BETA-MEET-01-the-field-experience-of-an-ecologist](https://github.com/BETA-SDC/event-proposal/tree/main/2026-2027/BETA-MEET-01-the-field-experience-of-an-ecologist)
+- [MATH-HELP-ROOM-01-calculus-and-linear-algebra](https://github.com/BETA-SDC/event-proposal/tree/main/2026-2027/MATH-HELP-ROOM-01-calculus-and-linear-algebra)
+- [GROUP-BIRTHDAY-01-2026-fall](https://github.com/BETA-SDC/event-proposal/tree/main/2026-2027/GROUP-BIRTHDAY-01-2026-fall)
+- [self-study-check-in](https://github.com/BETA-SDC/event-proposal/tree/main/2026-2027/self-study-check-in)
 
-以上两个活动目录是历史命名示例，后续新增活动应使用本文档的新命名格式。
+以上活动目录是当前命名示例。其中 `self-study-check-in` 是非系列活动示例，其他活动目录使用系列活动命名格式。
 
 ## 学年目录命名
 
@@ -93,7 +95,7 @@ SERIES-两位期数-specific-topic
 ```text
 BETA-MEET-01-the-field-experience-of-an-ecologist
 BETA-MEET-02-topic-of-the-next-session
-MATH-HELP-ROOM-01-calculus-review
+MATH-HELP-ROOM-01-calculus-and-linear-algebra
 GROUP-BIRTHDAY-01-2026-fall
 ```
 
@@ -131,7 +133,7 @@ GROUP-BIRTHDAY-2026-FALL-01
 ```markdown
 # BETA MEET 01 · The Field Experience of an Ecologist
 
-Main issue: [BETA-SDC/event-proposal#38](https://github.com/BETA-SDC/event-proposal/issues/38)
+Main issue: [BETA-SDC/event-proposal#23](https://github.com/BETA-SDC/event-proposal/issues/23)
 
 This directory stores materials for BETA MEET 01.
 
@@ -148,8 +150,8 @@ This directory stores materials for BETA MEET 01.
 
 示例：
 
-- [2026-09-09-math-help-group-01/proposal.md](https://github.com/BETA-SDC/event-proposal/blob/main/2026-2027/2026-09-09-math-help-group-01/proposal.md)
-- [2026-09-16-group-birthday-ceremony-01/proposal.md](https://github.com/BETA-SDC/event-proposal/blob/main/2026-2027/2026-09-16-group-birthday-ceremony-01/proposal.md)
+- [MATH-HELP-ROOM-01-calculus-and-linear-algebra/proposal.md](https://github.com/BETA-SDC/event-proposal/blob/main/2026-2027/MATH-HELP-ROOM-01-calculus-and-linear-algebra/proposal.md)
+- [GROUP-BIRTHDAY-01-2026-fall/proposal.md](https://github.com/BETA-SDC/event-proposal/blob/main/2026-2027/GROUP-BIRTHDAY-01-2026-fall/proposal.md)
 
 不推荐把活动名重复写进文件名，例如 `math-help-room-proposal.md`。活动名已经由上级目录表达。
 
@@ -159,8 +161,8 @@ This directory stores materials for BETA MEET 01.
 
 示例：
 
-- [2026-09-09-math-help-group-01/poster-information.md](https://github.com/BETA-SDC/event-proposal/blob/main/2026-2027/2026-09-09-math-help-group-01/poster-information.md)
-- [2026-09-19-self-study-check-in/poster-information.md](https://github.com/BETA-SDC/event-proposal/blob/main/2026-2027/2026-09-19-self-study-check-in/poster-information.md)
+- [MATH-HELP-ROOM-01-calculus-and-linear-algebra/poster-information.md](https://github.com/BETA-SDC/event-proposal/blob/main/2026-2027/MATH-HELP-ROOM-01-calculus-and-linear-algebra/poster-information.md)
+- [self-study-check-in/poster-information.md](https://github.com/BETA-SDC/event-proposal/blob/main/2026-2027/self-study-check-in/poster-information.md)
 
 ### 通知文案
 
@@ -168,7 +170,7 @@ This directory stores materials for BETA MEET 01.
 
 如果同一活动有多个正式发送渠道，建议在文件内容中分节记录，而不是在文件名中堆叠渠道名称。正式发送后的归档仍应在对应活动主 Issue 下创建 `[message]` 类型 Sub-issue，文件只作为分支中的材料草稿或备份。
 
-历史上已经出现的 [notation-message.md](https://github.com/BETA-SDC/event-proposal/blob/main/2026-2027/2026-09-16-group-birthday-ceremony-01/notation-message.md) 可暂时保留；后续新增文件建议使用 `notification-message.md`，必要时再单独开 Pull Request 纠正历史文件名。
+历史上已经出现的 [notification-message.md](https://github.com/BETA-SDC/event-proposal/blob/main/2026-2027/GROUP-BIRTHDAY-01-2026-fall/notification-message.md) 可暂时保留；后续新增文件建议使用 `notification-message.md`，必要时再单独开 Pull Request 纠正历史文件名。
 
 ### 签到记录
 
@@ -176,12 +178,12 @@ This directory stores materials for BETA MEET 01.
 
 现有样例：
 
-- [sign-in/README.md](https://github.com/BETA-SDC/event-proposal/blob/main/2026-2027/2026-09-16-group-birthday-ceremony-01/sign-in/README.md)
-- [sign-in/00-summary.csv](https://github.com/BETA-SDC/event-proposal/blob/main/2026-2027/2026-09-16-group-birthday-ceremony-01/sign-in/00-summary.csv)
-- [sign-in/01-registered-attended.csv](https://github.com/BETA-SDC/event-proposal/blob/main/2026-2027/2026-09-16-group-birthday-ceremony-01/sign-in/01-registered-attended.csv)
-- [sign-in/02-registered-absent.csv](https://github.com/BETA-SDC/event-proposal/blob/main/2026-2027/2026-09-16-group-birthday-ceremony-01/sign-in/02-registered-absent.csv)
-- [sign-in/03-registered-cancelled.csv](https://github.com/BETA-SDC/event-proposal/blob/main/2026-2027/2026-09-16-group-birthday-ceremony-01/sign-in/03-registered-cancelled.csv)
-- [sign-in/04-unregistered-attended.csv](https://github.com/BETA-SDC/event-proposal/blob/main/2026-2027/2026-09-16-group-birthday-ceremony-01/sign-in/04-unregistered-attended.csv)
+- [sign-in/README.md](https://github.com/BETA-SDC/event-proposal/blob/main/2026-2027/GROUP-BIRTHDAY-01-2026-fall/sign-in/README.md)
+- [sign-in/00-summary.csv](https://github.com/BETA-SDC/event-proposal/blob/main/2026-2027/GROUP-BIRTHDAY-01-2026-fall/sign-in/00-summary.csv)
+- [sign-in/01-registered-attended.csv](https://github.com/BETA-SDC/event-proposal/blob/main/2026-2027/GROUP-BIRTHDAY-01-2026-fall/sign-in/01-registered-attended.csv)
+- [sign-in/02-registered-absent.csv](https://github.com/BETA-SDC/event-proposal/blob/main/2026-2027/GROUP-BIRTHDAY-01-2026-fall/sign-in/02-registered-absent.csv)
+- [sign-in/03-registered-cancelled.csv](https://github.com/BETA-SDC/event-proposal/blob/main/2026-2027/GROUP-BIRTHDAY-01-2026-fall/sign-in/03-registered-cancelled.csv)
+- [sign-in/04-unregistered-attended.csv](https://github.com/BETA-SDC/event-proposal/blob/main/2026-2027/GROUP-BIRTHDAY-01-2026-fall/sign-in/04-unregistered-attended.csv)
 
 ## 何时新增文件
 

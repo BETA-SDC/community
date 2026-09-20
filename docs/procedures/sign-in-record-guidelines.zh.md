@@ -8,9 +8,9 @@
 
 当活动存在报名、签到、现场补录、临时取消或需要统计实际到场人数时，应在活动材料目录下整理签到记录。签到记录用于复盘活动参与情况、核对报名转化、支持后续报销或活动总结，不应只保存在个人表格、聊天记录或临时接龙中。
 
-可参考 [集体生日会签到记录样例](https://github.com/BETA-SDC/event-proposal/tree/main/2026-2027/2026-09-16-group-birthday-ceremony-01/sign-in)，其中包含说明文档和分类后的 CSV 文件。
+可参考 [集体生日会签到记录样例](https://github.com/BETA-SDC/event-proposal/tree/main/2026-2027/GROUP-BIRTHDAY-01-2026-fall/sign-in)，其中包含说明文档和分类后的 CSV 文件。
 
-样例文件包括：[README.md](https://github.com/BETA-SDC/event-proposal/blob/main/2026-2027/2026-09-16-group-birthday-ceremony-01/sign-in/README.md)、[00-summary.csv](https://github.com/BETA-SDC/event-proposal/blob/main/2026-2027/2026-09-16-group-birthday-ceremony-01/sign-in/00-summary.csv)、[01-registered-attended.csv](https://github.com/BETA-SDC/event-proposal/blob/main/2026-2027/2026-09-16-group-birthday-ceremony-01/sign-in/01-registered-attended.csv)、[02-registered-absent.csv](https://github.com/BETA-SDC/event-proposal/blob/main/2026-2027/2026-09-16-group-birthday-ceremony-01/sign-in/02-registered-absent.csv)、[03-registered-cancelled.csv](https://github.com/BETA-SDC/event-proposal/blob/main/2026-2027/2026-09-16-group-birthday-ceremony-01/sign-in/03-registered-cancelled.csv) 和 [04-unregistered-attended.csv](https://github.com/BETA-SDC/event-proposal/blob/main/2026-2027/2026-09-16-group-birthday-ceremony-01/sign-in/04-unregistered-attended.csv)。
+样例文件包括：[README.md](https://github.com/BETA-SDC/event-proposal/blob/main/2026-2027/GROUP-BIRTHDAY-01-2026-fall/sign-in/README.md)、[00-summary.csv](https://github.com/BETA-SDC/event-proposal/blob/main/2026-2027/GROUP-BIRTHDAY-01-2026-fall/sign-in/00-summary.csv)、[01-registered-attended.csv](https://github.com/BETA-SDC/event-proposal/blob/main/2026-2027/GROUP-BIRTHDAY-01-2026-fall/sign-in/01-registered-attended.csv)、[02-registered-absent.csv](https://github.com/BETA-SDC/event-proposal/blob/main/2026-2027/GROUP-BIRTHDAY-01-2026-fall/sign-in/02-registered-absent.csv)、[03-registered-cancelled.csv](https://github.com/BETA-SDC/event-proposal/blob/main/2026-2027/GROUP-BIRTHDAY-01-2026-fall/sign-in/03-registered-cancelled.csv) 和 [04-unregistered-attended.csv](https://github.com/BETA-SDC/event-proposal/blob/main/2026-2027/GROUP-BIRTHDAY-01-2026-fall/sign-in/04-unregistered-attended.csv)。
 
 ## 放置位置
 
@@ -19,7 +19,7 @@
 推荐结构：
 
 ```text
-YYYY-MM-DD-activity-name-两位序号/
+GROUP-BIRTHDAY-01-2026-fall/
   sign-in/
     README.md
     00-summary.csv

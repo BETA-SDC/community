@@ -55,10 +55,12 @@ event-proposal/
 Existing examples:
 
 - [2026-2027](https://github.com/BETA-SDC/event-proposal/tree/main/2026-2027)
-- [2026-09-09-math-help-group-01](https://github.com/BETA-SDC/event-proposal/tree/main/2026-2027/2026-09-09-math-help-group-01)
-- [2026-09-16-group-birthday-ceremony-01](https://github.com/BETA-SDC/event-proposal/tree/main/2026-2027/2026-09-16-group-birthday-ceremony-01)
+- [BETA-MEET-01-the-field-experience-of-an-ecologist](https://github.com/BETA-SDC/event-proposal/tree/main/2026-2027/BETA-MEET-01-the-field-experience-of-an-ecologist)
+- [MATH-HELP-ROOM-01-calculus-and-linear-algebra](https://github.com/BETA-SDC/event-proposal/tree/main/2026-2027/MATH-HELP-ROOM-01-calculus-and-linear-algebra)
+- [GROUP-BIRTHDAY-01-2026-fall](https://github.com/BETA-SDC/event-proposal/tree/main/2026-2027/GROUP-BIRTHDAY-01-2026-fall)
+- [self-study-check-in](https://github.com/BETA-SDC/event-proposal/tree/main/2026-2027/self-study-check-in)
 
-The two activity directories above are historical naming examples. New activity directories should use the new format in this document.
+The activity directories above are current naming examples. `self-study-check-in` is the non-series example; the other activity directories use the series activity naming format.
 
 ## Academic Year Directory Names
 
@@ -93,7 +95,7 @@ Examples:
 ```text
 BETA-MEET-01-the-field-experience-of-an-ecologist
 BETA-MEET-02-topic-of-the-next-session
-MATH-HELP-ROOM-01-calculus-review
+MATH-HELP-ROOM-01-calculus-and-linear-algebra
 GROUP-BIRTHDAY-01-2026-fall
 ```
 
@@ -131,7 +133,7 @@ Example:
 ```markdown
 # BETA MEET 01 · The Field Experience of an Ecologist
 
-Main issue: [BETA-SDC/event-proposal#38](https://github.com/BETA-SDC/event-proposal/issues/38)
+Main issue: [BETA-SDC/event-proposal#23](https://github.com/BETA-SDC/event-proposal/issues/23)
 
 This directory stores materials for BETA MEET 01.
 
@@ -148,8 +150,8 @@ Activity proposals should be named `proposal.md`.
 
 Examples:
 
-- [2026-09-09-math-help-group-01/proposal.md](https://github.com/BETA-SDC/event-proposal/blob/main/2026-2027/2026-09-09-math-help-group-01/proposal.md)
-- [2026-09-16-group-birthday-ceremony-01/proposal.md](https://github.com/BETA-SDC/event-proposal/blob/main/2026-2027/2026-09-16-group-birthday-ceremony-01/proposal.md)
+- [MATH-HELP-ROOM-01-calculus-and-linear-algebra/proposal.md](https://github.com/BETA-SDC/event-proposal/blob/main/2026-2027/MATH-HELP-ROOM-01-calculus-and-linear-algebra/proposal.md)
+- [GROUP-BIRTHDAY-01-2026-fall/proposal.md](https://github.com/BETA-SDC/event-proposal/blob/main/2026-2027/GROUP-BIRTHDAY-01-2026-fall/proposal.md)
 
 Do not repeat the activity name in the file name, such as `math-help-room-proposal.md`. The activity name is already expressed by the parent directory.
 
@@ -159,8 +161,8 @@ Poster information forms should be named `poster-information.md`, with content b
 
 Examples:
 
-- [2026-09-09-math-help-group-01/poster-information.md](https://github.com/BETA-SDC/event-proposal/blob/main/2026-2027/2026-09-09-math-help-group-01/poster-information.md)
-- [2026-09-19-self-study-check-in/poster-information.md](https://github.com/BETA-SDC/event-proposal/blob/main/2026-2027/2026-09-19-self-study-check-in/poster-information.md)
+- [MATH-HELP-ROOM-01-calculus-and-linear-algebra/poster-information.md](https://github.com/BETA-SDC/event-proposal/blob/main/2026-2027/MATH-HELP-ROOM-01-calculus-and-linear-algebra/poster-information.md)
+- [self-study-check-in/poster-information.md](https://github.com/BETA-SDC/event-proposal/blob/main/2026-2027/self-study-check-in/poster-information.md)
 
 ### Notification Copy
 
@@ -168,7 +170,7 @@ Notification copy drafts are not required files. Add `notification-message.md` o
 
 If one activity has multiple official sending channels, record them as sections inside the file instead of stacking channel names in the file name. After official sending, the archive should still be created as a `[message]` Sub-issue under the corresponding activity main Issue; the file is only a branch material draft or backup.
 
-The historical file [notation-message.md](https://github.com/BETA-SDC/event-proposal/blob/main/2026-2027/2026-09-16-group-birthday-ceremony-01/notation-message.md) may stay for now. New files should use `notification-message.md`; historical names can be corrected later in a separate Pull Request if needed.
+The historical file [notification-message.md](https://github.com/BETA-SDC/event-proposal/blob/main/2026-2027/GROUP-BIRTHDAY-01-2026-fall/notification-message.md) may stay for now. New files should use `notification-message.md`; historical names can be corrected later in a separate Pull Request if needed.
 
 ### Sign-In Records
 
@@ -176,12 +178,12 @@ Sign-in records go under `sign-in/`. See the [Sign-In Record Guidelines](./sign-
 
 Existing examples:
 
-- [sign-in/README.md](https://github.com/BETA-SDC/event-proposal/blob/main/2026-2027/2026-09-16-group-birthday-ceremony-01/sign-in/README.md)
-- [sign-in/00-summary.csv](https://github.com/BETA-SDC/event-proposal/blob/main/2026-2027/2026-09-16-group-birthday-ceremony-01/sign-in/00-summary.csv)
-- [sign-in/01-registered-attended.csv](https://github.com/BETA-SDC/event-proposal/blob/main/2026-2027/2026-09-16-group-birthday-ceremony-01/sign-in/01-registered-attended.csv)
-- [sign-in/02-registered-absent.csv](https://github.com/BETA-SDC/event-proposal/blob/main/2026-2027/2026-09-16-group-birthday-ceremony-01/sign-in/02-registered-absent.csv)
-- [sign-in/03-registered-cancelled.csv](https://github.com/BETA-SDC/event-proposal/blob/main/2026-2027/2026-09-16-group-birthday-ceremony-01/sign-in/03-registered-cancelled.csv)
-- [sign-in/04-unregistered-attended.csv](https://github.com/BETA-SDC/event-proposal/blob/main/2026-2027/2026-09-16-group-birthday-ceremony-01/sign-in/04-unregistered-attended.csv)
+- [sign-in/README.md](https://github.com/BETA-SDC/event-proposal/blob/main/2026-2027/GROUP-BIRTHDAY-01-2026-fall/sign-in/README.md)
+- [sign-in/00-summary.csv](https://github.com/BETA-SDC/event-proposal/blob/main/2026-2027/GROUP-BIRTHDAY-01-2026-fall/sign-in/00-summary.csv)
+- [sign-in/01-registered-attended.csv](https://github.com/BETA-SDC/event-proposal/blob/main/2026-2027/GROUP-BIRTHDAY-01-2026-fall/sign-in/01-registered-attended.csv)
+- [sign-in/02-registered-absent.csv](https://github.com/BETA-SDC/event-proposal/blob/main/2026-2027/GROUP-BIRTHDAY-01-2026-fall/sign-in/02-registered-absent.csv)
+- [sign-in/03-registered-cancelled.csv](https://github.com/BETA-SDC/event-proposal/blob/main/2026-2027/GROUP-BIRTHDAY-01-2026-fall/sign-in/03-registered-cancelled.csv)
+- [sign-in/04-unregistered-attended.csv](https://github.com/BETA-SDC/event-proposal/blob/main/2026-2027/GROUP-BIRTHDAY-01-2026-fall/sign-in/04-unregistered-attended.csv)
 
 ## When to Add Files
 
