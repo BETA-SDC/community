@@ -12,13 +12,13 @@ General rules:
 
 - Use fixed prefixes such as `[event]`, `[task]`, and `[message]`
 - Add one space after the prefix, then write the activity or item name
-- When a title actually contains multiple fields, use ` - ` to separate them
-- A main activity Issue usually contains only the activity name and does not need an extra separator
+- No field separator is required; the activity context, task, channel, or other title information only needs to be clear
+- A main activity Issue usually contains only the activity name and does not need extra fields
 - Keep the activity name consistent for the same activity
 - Use `YYYY-MM-DD` for dates
 
 > [!TIP]
-> `[event] BETA MEET: The Field Experience of an Ecologist` is a main activity Issue title. `[task] BETA MEET: The Field Experience of an Ecologist - Create poster` is a multi-field task title.
+> `[event] BETA MEET: The Field Experience of an Ecologist` is a main activity Issue title. `[task] BETA MEET: The Field Experience of an Ecologist Create poster` is the corresponding task title. The title should be clear, but it does not need hyphens just to split fields.
 
 ## Common Title Formats
 
@@ -26,9 +26,9 @@ General rules:
 | --- | --- | --- |
 | `[event]` | Main activity Issue | `[event] Activity Name` |
 | `[improvement]` | Process, regulation, tool, or collaboration improvement | `[improvement] Improvement Item Name` |
-| `[task]` | Concrete task assigned to members | `[task] Activity Name - Task Name` |
-| `[message]` | Archive of an officially sent notice | `[message] Activity Name - Channel - YYYY-MM-DD` |
-| `[wrap-up]` | Activity review, media organization, or wrap-up item | `[wrap-up] Activity Name - Wrap-up Item` |
+| `[task]` | Concrete task assigned to members | `[task] Activity Name Task Name` |
+| `[message]` | Archive of an officially sent notice | `[message] Activity Name Channel YYYY-MM-DD` |
+| `[wrap-up]` | Activity review, media organization, or wrap-up item | `[wrap-up] Activity Name Wrap-up Item` |
 | `[question]` | Temporary question, information to confirm, or discussion item | `[question] Question Summary` |
 | `[docs]` | Documentation maintenance, correction, addition, or organization | `[docs] Document Name or Maintenance Item` |
 
@@ -37,9 +37,9 @@ Examples:
 ```text
 [event] Math Help Room
 [improvement] Establish standard activity creation workflow
-[task] Math Help Room - Create registration form
-[message] Math Help Room - Email notice - 2026-09-09
-[wrap-up] Group Birthday Ceremony - Organize photo materials
+[task] Math Help Room Create registration form
+[message] Math Help Room Email notice 2026-09-09
+[wrap-up] Group Birthday Ceremony Organize photo materials
 [question] Should we standardize the registration form template
 [docs] Update activity workflow instructions
 ```

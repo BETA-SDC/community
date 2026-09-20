@@ -29,7 +29,7 @@
 7. **活动后收尾。** 补充签到统计、照片视频位置、复盘记录和可复用材料。
 
 > [!TIP]
-> 活动主 Issue 的标题只需要写清楚活动名称，例如 `[event] BETA MEET: The Field Experience of an Ecologist`。不要为了拆字段而强行加入 ` - `；` - ` 主要用于任务、通知归档和收尾等多字段 Sub-issue。
+> 活动主 Issue 的标题只需要写清楚活动名称，例如 `[event] BETA MEET: The Field Experience of an Ecologist`。任务、通知归档和收尾等 Sub-issue 也不需要为了拆字段而强行加入连字符；只要前缀、活动归属和具体事项清楚即可。
 
 ## 流程图
 

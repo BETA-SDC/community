@@ -29,7 +29,7 @@
 7. **Wrap up.** Add sign-in statistics, photo/video locations, review notes, and reusable materials after the activity.
 
 > [!TIP]
-> The main activity Issue title only needs to state the activity name, such as `[event] BETA MEET: The Field Experience of an Ecologist`. Do not add ` - ` just to split fields; ` - ` is mainly for multi-field Sub-issues such as tasks, message archives, and wrap-up items.
+> The main activity Issue title only needs to state the activity name, such as `[event] BETA MEET: The Field Experience of an Ecologist`. Task, message archive, and wrap-up Sub-issues also do not need hyphens just to split fields; the prefix, activity context, and concrete item only need to be clear.
 
 ## Flowchart
 
