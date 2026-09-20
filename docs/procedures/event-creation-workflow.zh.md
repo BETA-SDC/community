@@ -32,7 +32,7 @@
 
 一次活动或协作事项通常按以下顺序推进：
 
-1. **提出事项：** 在 `event-proposal` 仓库中新建主 Issue，说明活动背景、负责人、相关人员和关键时间。
+1. **提出事项：** 在 [event-proposal 仓库](https://github.com/BETA-SDC/event-proposal)中新建主 Issue，说明活动背景、负责人、相关人员和关键时间。
 2. **明确协作：** 在主 Issue 中讨论方案，通知相关成员，并把需要执行的工作拆成 Sub-issue。
 3. **分配任务：** 使用 `[task]` 类型标题创建任务类 Sub-issue，assign 给对应成员，并添加合适的标签。
 4. **准备材料：** 从主 Issue 创建对应分支，在分支中准备策划案、通知文案、海报信息、预算、物资和其他活动材料。
@@ -107,7 +107,7 @@ flowchart LR
 
 ### 1. 提出活动或设想
 
-当出现新的活动想法、协作需求或需要记录的事项时，在 `event-proposal` 仓库中新建 Issue。
+当出现新的活动想法、协作需求或需要记录的事项时，在 [event-proposal 仓库](https://github.com/BETA-SDC/event-proposal)中新建 Issue。
 
 Issue 中建议至少包含以下信息：
 
@@ -150,7 +150,8 @@ Sub-issue 中建议写清楚：
 - 需要依赖的材料、链接、模板或前置确认
 - 完成后应在哪里提交结果，例如 Pull Request、评论附件、共享文档或对应目录
 
-如果任务是制作海报或其他宣传物料，应按标准流程在对应活动主 Issue 下创建 Sub-issue，并在 Sub-issue 中 @ 活动负责人或宣传负责人。Sub-issue 需要说明海报用途、截止时间、发布渠道、需要使用的报名链接、是否有指定图片，以及图片素材的使用要求；如果已有图片、二维码或参考图，应作为附件一起挂在该 Sub-issue 下，避免素材只留在聊天记录里。
+> [!IMPORTANT]
+> 如果任务是制作海报或其他宣传物料，应按标准流程在对应活动主 Issue 下创建 Sub-issue，并在 Sub-issue 中 @ 活动负责人或宣传负责人。Sub-issue 需要说明海报用途、截止时间、发布渠道、需要使用的报名链接、是否有指定图片，以及图片素材的使用要求；如果已有图片、二维码或参考图，应作为附件一起挂在该 Sub-issue 下，避免素材只留在聊天记录里。
 
 任务分配类 Sub-issue 标题应使用以下格式：
 
@@ -286,9 +287,10 @@ Issue 编号统一使用两位数字，不足两位时在前面补 `0`，例如 
 - 预算、物资、场地、人员分工记录
 - 拍摄、宣传、推送或复盘材料
 
-需要出海报时，应根据 `event-proposal` 仓库中的海报信息模板填写完整信息，包括活动标题、时间地点、主办方、报名方式、报名链接、联系人、展示文案和其他必须出现在海报上的内容。如果海报需要使用特定图片，应在海报信息表中说明图片内容、来源、使用位置或风格要求，并确保原图或参考图已作为对应 Sub-issue 的附件提交。
+> [!IMPORTANT]
+> 需要出海报时，应根据 [event-proposal 仓库](https://github.com/BETA-SDC/event-proposal)中的[海报信息模板](https://github.com/BETA-SDC/event-proposal/blob/main/template-for-poster-information.md)填写完整信息，包括活动标题、时间地点、主办方、报名方式、报名链接、联系人、展示文案和其他必须出现在海报上的内容。如果海报需要使用特定图片，应在海报信息表中说明图片内容、来源、使用位置或风格要求，并确保原图或参考图已作为对应 Sub-issue 的附件提交。
 
-文件放置位置应符合对应仓库的目录结构。例如活动策划和海报信息通常放在 `event-proposal` 仓库的学年目录下，并使用日期和活动名命名文件夹。
+文件放置位置应符合对应仓库的目录结构。例如活动策划和海报信息通常放在 [event-proposal 仓库的学年目录](https://github.com/BETA-SDC/event-proposal/tree/main/2026-2027)下，并使用日期和活动名命名文件夹。可参考示例文件 [proposal.md](https://github.com/BETA-SDC/event-proposal/blob/main/2026-2027/2026-09-09-math-help-group-01/proposal.md) 和 [poster-information.md](https://github.com/BETA-SDC/event-proposal/blob/main/2026-2027/2026-09-09-math-help-group-01/poster-information.md)。
 
 推荐活动文件夹命名格式：
 
@@ -300,10 +302,8 @@ YYYY-MM-DD-activity-name-两位序号
 
 示例：
 
-```text
-2026-09-09-math-help-group-01
-2026-09-16-group-birthday-ceremony-01
-```
+- [2026-09-09-math-help-group-01](https://github.com/BETA-SDC/event-proposal/tree/main/2026-2027/2026-09-09-math-help-group-01)
+- [2026-09-16-group-birthday-ceremony-01](https://github.com/BETA-SDC/event-proposal/tree/main/2026-2027/2026-09-16-group-birthday-ceremony-01)
 
 在协作过程中，尽量把重要决定写回 Issue 或相关 Markdown 文件，不只留在聊天记录里。
 
