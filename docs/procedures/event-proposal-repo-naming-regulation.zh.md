@@ -39,9 +39,10 @@ event-proposal/
   template-for-poster-information.md
   YYYY-YYYY/
     SERIES-两位期数-specific-topic/
+      README.md
       proposal.md
       poster-information.md
-      notification-message.md
+      notification-message.md  # 可选
       sign-in/
         README.md
         00-summary.csv
@@ -113,6 +114,34 @@ GROUP-BIRTHDAY-2026-FALL-01
 
 ## 活动材料文件命名
 
+### 活动目录说明
+
+每个活动目录建议包含一个 `README.md`，用于简要介绍这个活动目录的内容，并链接对应的活动主 Issue。`README.md` 不需要替代 `proposal.md`，它的作用是让进入目录的人快速知道这个目录是什么、对应哪个 `[event]` Issue、里面有哪些材料。
+
+建议包含：
+
+- 活动名称
+- 对应的活动主 Issue，例如 `[event] BETA MEET - The Field Experience of an Ecologist`
+- 活动时间或期数信息
+- 目录内主要文件说明
+- 重要外部链接，例如报名表、Album 文件夹、活动总结等
+
+示例：
+
+```markdown
+# BETA MEET 01 · The Field Experience of an Ecologist
+
+Main issue: [BETA-SDC/event-proposal#38](https://github.com/BETA-SDC/event-proposal/issues/38)
+
+This directory stores materials for BETA MEET 01.
+
+## Files
+
+- `proposal.md`: activity proposal
+- `poster-information.md`: poster information form
+- `sign-in/`: sign-in and attendance statistics, if applicable
+```
+
 ### 活动策划案
 
 活动策划案统一命名为 `proposal.md`。
@@ -135,7 +164,7 @@ GROUP-BIRTHDAY-2026-FALL-01
 
 ### 通知文案
 
-通知文案草稿建议命名为 `notification-message.md`。
+通知文案草稿不是必需文件。只有当通知内容需要在 Pull Request 中共同编辑、审核或长期保留备份时，才建议新增 `notification-message.md`。
 
 如果同一活动有多个正式发送渠道，建议在文件内容中分节记录，而不是在文件名中堆叠渠道名称。正式发送后的归档仍应在对应活动主 Issue 下创建 `[message]` 类型 Sub-issue，文件只作为分支中的材料草稿或备份。
 
@@ -161,6 +190,7 @@ GROUP-BIRTHDAY-2026-FALL-01
 - 活动策划案
 - 海报信息表
 - 通知文案草稿或备份
+- 活动目录说明
 - 签到统计和整理说明
 - 复盘中需要长期保留的结构化材料
 
@@ -177,9 +207,10 @@ GROUP-BIRTHDAY-2026-FALL-01
 - [ ] 系列代号全大写、稳定且可识别，例如 `BETA-MEET`、`MATH-HELP-ROOM`、`GROUP-BIRTHDAY`
 - [ ] 期数使用两位数字，例如 `01`
 - [ ] 主题和文件名使用英文小写和连字符
+- [ ] 活动目录包含 `README.md`，并链接对应活动主 Issue
 - [ ] 策划案使用 `proposal.md`
 - [ ] 海报信息表使用 `poster-information.md`
-- [ ] 通知文案草稿优先使用 `notification-message.md`
+- [ ] 如需保存通知文案草稿，优先使用 `notification-message.md`
 - [ ] 签到记录放在 `sign-in/` 目录，并符合 [签到记录整理规范](./sign-in-record-guidelines.zh.md)
 - [ ] 文件名中没有 `final`、`new`、`latest`、`修改版` 等状态词
 - [ ] 没有把照片、视频或不必要的个人敏感信息直接提交到仓库

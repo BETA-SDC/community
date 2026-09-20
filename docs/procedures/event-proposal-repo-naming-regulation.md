@@ -39,9 +39,10 @@ event-proposal/
   template-for-poster-information.md
   YYYY-YYYY/
     SERIES-two-digit-session-specific-topic/
+      README.md
       proposal.md
       poster-information.md
-      notification-message.md
+      notification-message.md  # optional
       sign-in/
         README.md
         00-summary.csv
@@ -113,6 +114,34 @@ GROUP-BIRTHDAY-2026-FALL-01
 
 ## Activity Material File Names
 
+### Activity Directory README
+
+Each activity directory should include a `README.md` that briefly introduces the directory and links to the corresponding main activity Issue. This `README.md` does not replace `proposal.md`; its purpose is to help readers quickly understand what the directory is, which `[event]` Issue it belongs to, and what materials it contains.
+
+It should include:
+
+- Activity name
+- Corresponding main activity Issue, such as `[event] BETA MEET - The Field Experience of an Ecologist`
+- Activity date or session information
+- Main files in the directory
+- Important external links, such as registration forms, Album folders, or activity summaries
+
+Example:
+
+```markdown
+# BETA MEET 01 · The Field Experience of an Ecologist
+
+Main issue: [BETA-SDC/event-proposal#38](https://github.com/BETA-SDC/event-proposal/issues/38)
+
+This directory stores materials for BETA MEET 01.
+
+## Files
+
+- `proposal.md`: activity proposal
+- `poster-information.md`: poster information form
+- `sign-in/`: sign-in and attendance statistics, if applicable
+```
+
 ### Activity Proposal
 
 Activity proposals should be named `proposal.md`.
@@ -135,7 +164,7 @@ Examples:
 
 ### Notification Copy
 
-Notification copy drafts should be named `notification-message.md`.
+Notification copy drafts are not required files. Add `notification-message.md` only when the notice needs collaborative editing, review in a Pull Request, or a long-term draft backup.
 
 If one activity has multiple official sending channels, record them as sections inside the file instead of stacking channel names in the file name. After official sending, the archive should still be created as a `[message]` Sub-issue under the corresponding activity main Issue; the file is only a branch material draft or backup.
 
@@ -161,6 +190,7 @@ Only add repository files when materials need long-term tracking, reuse, or revi
 - Activity proposals
 - Poster information forms
 - Notification copy drafts or backups
+- Activity directory README files
 - Sign-in statistics and organization notes
 - Structured review materials that should be kept long-term
 
@@ -177,9 +207,10 @@ The following should not usually be committed directly:
 - [ ] Series code is uppercase, stable, and recognizable, such as `BETA-MEET`, `MATH-HELP-ROOM`, or `GROUP-BIRTHDAY`
 - [ ] Session number uses two digits, such as `01`
 - [ ] Topic and file names use lowercase English and hyphens
+- [ ] Activity directory includes `README.md` and links to the corresponding main activity Issue
 - [ ] Proposal uses `proposal.md`
 - [ ] Poster information form uses `poster-information.md`
-- [ ] Notification copy draft prefers `notification-message.md`
+- [ ] If a notification copy draft is saved, it prefers `notification-message.md`
 - [ ] Sign-in records are stored under `sign-in/` and follow the [Sign-In Record Guidelines](./sign-in-record-guidelines.md)
 - [ ] File names do not contain status words such as `final`, `new`, `latest`, or `revised`
 - [ ] Photos, videos, or unnecessary sensitive personal information are not committed directly to the repository
