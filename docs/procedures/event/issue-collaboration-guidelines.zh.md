@@ -12,13 +12,13 @@
 
 - 前缀使用 `[event]`、`[task]`、`[message]` 等固定形式
 - 前缀后空一格，再写活动名称或事项名称
-- 标题不强制使用字段分隔符；只要活动归属、任务或渠道等信息清楚即可
 - 活动主 Issue 通常只写活动名称，不需要额外字段
+- Sub-issue 建议使用 ` - ` 分隔活动名称、任务、渠道、日期等字段，让父子关系和事项层级更清楚
 - 同一活动的活动名称应保持一致
 - 涉及日期时统一使用 `YYYY-MM-DD`
 
 > [!TIP]
-> `[event] BETA MEET: The Field Experience of an Ecologist` 是活动主 Issue 标题；`[task] BETA MEET: The Field Experience of an Ecologist 制作海报` 是对应任务标题。标题需要清楚，不需要为了拆字段而加连字符。
+> `[event] BETA MEET: The Field Experience of an Ecologist` 是活动主 Issue 标题；`[task] BETA MEET: The Field Experience of an Ecologist - 制作海报` 是对应 Sub-issue 标题。
 
 ## 常用标题格式
 
@@ -26,9 +26,9 @@
 | --- | --- | --- |
 | `[event]` | 活动主 Issue | `[event] 活动名称` |
 | `[improvement]` | 流程、制度、工具或协作方式改进 | `[improvement] 改进事项名称` |
-| `[task]` | 分配给成员执行的具体任务 | `[task] 活动名称 任务名称` |
-| `[message]` | 正式发送通知的归档 | `[message] 活动名称 渠道 YYYY-MM-DD` |
-| `[wrap-up]` | 活动复盘、素材整理或收尾事项 | `[wrap-up] 活动名称 收尾事项` |
+| `[task]` | 分配给成员执行的具体任务 | `[task] 活动名称 - 任务名称` |
+| `[message]` | 正式发送通知的归档 | `[message] 活动名称 - 渠道 - YYYY-MM-DD` |
+| `[wrap-up]` | 活动复盘、素材整理或收尾事项 | `[wrap-up] 活动名称 - 收尾事项` |
 | `[question]` | 临时问题、信息待确认或讨论事项 | `[question] 问题简述` |
 | `[docs]` | 文档维护、修正、补充或整理 | `[docs] 文档名称或维护事项` |
 
@@ -37,9 +37,9 @@
 ```text
 [event] Math Help Room
 [improvement] 建立活动创建标准流程
-[task] Math Help Room 制作报名表
-[message] Math Help Room 邮件通知 2026-09-09
-[wrap-up] Group Birthday Ceremony 整理照片素材
+[task] Math Help Room - 制作报名表
+[message] Math Help Room - 邮件通知 - 2026-09-09
+[wrap-up] Group Birthday Ceremony - 整理照片素材
 [question] 是否需要统一报名表模板
 [docs] 更新活动流程说明
 ```

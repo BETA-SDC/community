@@ -41,17 +41,17 @@ Usually do not archive:
 Message archive Sub-issues use:
 
 ```text
-[message] Activity Name Channel YYYY-MM-DD
+[message] Activity Name - Channel - YYYY-MM-DD
 ```
 
 Examples:
 
 ```text
-[message] Math Help Room Email notice 2026-09-09
-[message] Group Birthday Ceremony WeChat group notice 2026-09-16
+[message] Math Help Room - Email notice - 2026-09-09
+[message] Group Birthday Ceremony - WeChat group notice - 2026-09-16
 ```
 
-The activity name should match the main activity Issue. The channel should name the actual sending channel, such as `Email notice`, `WeChat group notice`, or `Official account post`. The title does not need hyphens just to split fields.
+The activity name should match the main activity Issue. The channel should name the actual sending channel, such as `Email notice`, `WeChat group notice`, or `Official account post`. Because the archive is a Sub-issue under the main activity Issue, use ` - ` to separate fields and make the parent-child level easier to read.
 
 ## Sub-Issue Content
 

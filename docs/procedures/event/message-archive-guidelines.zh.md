@@ -41,17 +41,17 @@
 通知归档类 Sub-issue 使用：
 
 ```text
-[message] 活动名称 渠道 YYYY-MM-DD
+[message] 活动名称 - 渠道 - YYYY-MM-DD
 ```
 
 示例：
 
 ```text
-[message] Math Help Room 邮件通知 2026-09-09
-[message] Group Birthday Ceremony 微信群通知 2026-09-16
+[message] Math Help Room - 邮件通知 - 2026-09-09
+[message] Group Birthday Ceremony - 微信群通知 - 2026-09-16
 ```
 
-标题里的活动名称应与活动主 Issue 保持一致。渠道写实际发送渠道，例如 `邮件通知`、`微信群通知`、`公众号推文`。标题不需要为了拆字段而强行加入连字符。
+标题里的活动名称应与活动主 Issue 保持一致。渠道写实际发送渠道，例如 `邮件通知`、`微信群通知`、`公众号推文`。归档是活动主 Issue 下的 Sub-issue，建议用 ` - ` 分隔字段，方便在父子层级中识别。
 
 ## Sub-issue 内容
 
