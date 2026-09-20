@@ -1,8 +1,8 @@
-# 活动建立流程
+# 活动与宣传
 
-中文 | [English](./event-creation-workflow.md)
+中文 | [English](./README.md)
 
-> 本文档是活动建立的入口页。细节规则分散在相关规范中，避免把所有要求塞进同一份长文档。
+> 本目录是活动与宣传工作的入口。先从本文档了解活动与宣传，再按需要进入对应细则。
 
 > [!IMPORTANT]
 > 如果你还不熟悉 GitHub 的 Issue、Sub-issue、分支、Pull Request 或网页端编辑操作，请先阅读 [GitHub 新手/新成员快速帮助](https://github.com/BETA-SDC/community/blob/main/docs/resources/README.zh.md#L10-L15)。

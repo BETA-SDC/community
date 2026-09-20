@@ -1,8 +1,8 @@
-# Event Creation Workflow
+# Activities and Publicity
 
-[中文](./event-creation-workflow.zh.md) | English
+[中文](./README.zh.md) | English
 
-> This is the entry page for creating activities. Detailed rules live in separate procedure documents so this workflow stays readable.
+> This directory is the entry point for activity and publicity work. Start here for the activity workflow, then open the detailed guideline you need.
 
 > [!IMPORTANT]
 > If you are not yet familiar with GitHub Issues, Sub-issues, branches, Pull Requests, or web editing, read [Quick Help for GitHub Beginners and New Members](https://github.com/BETA-SDC/community/blob/main/docs/resources/README.md#L10-L15) first.

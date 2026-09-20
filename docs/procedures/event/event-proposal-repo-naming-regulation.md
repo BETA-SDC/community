@@ -16,7 +16,7 @@ This guideline applies to files and directories in the [`event-proposal`](https:
 - Sign-in record directories and CSV files
 - Other materials directly related to a single activity
 
-Issue titles, Sub-issue titles, branch names, and label rules still follow the [Event Creation Workflow](./event-creation-workflow.md).
+Issue titles, Sub-issue titles, branch names, and label rules still follow the [Activities and Publicity](./README.md).
 
 ## Principles
 

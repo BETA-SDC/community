@@ -16,7 +16,7 @@
 - 签到记录目录和 CSV 文件
 - 其他与单个活动直接相关的材料
 
-Issue 标题、Sub-issue 标题、分支名称和标签规则仍以 [活动建立规范流程](./event-creation-workflow.zh.md) 为准。
+Issue 标题、Sub-issue 标题、分支名称和标签规则仍以 [活动与宣传](./README.zh.md) 为准。
 
 ## 基本原则
 

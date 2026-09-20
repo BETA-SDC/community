@@ -2,7 +2,7 @@
 
 [中文](./message-archive-guidelines.zh.md) | English
 
-> This document explains how to archive official notices, emails, group messages, and publicity copy after sending. For the full activity workflow, see the [Event Creation Workflow](./event-creation-workflow.md).
+> This document explains how to archive official notices, emails, group messages, and publicity copy after sending. For the full activity workflow, see the [Activities and Publicity](./README.md).
 
 ## What A Message Archive Is
 

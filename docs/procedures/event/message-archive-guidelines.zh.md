@@ -2,7 +2,7 @@
 
 中文 | [English](./message-archive-guidelines.md)
 
-> 本文档说明正式通知、邮件、群消息和宣传文案发送后如何归档。完整活动流程见 [活动建立流程](./event-creation-workflow.zh.md)。
+> 本文档说明正式通知、邮件、群消息和宣传文案发送后如何归档。完整活动流程见 [活动与宣传](./README.zh.md)。
 
 ## 什么是通知归档
 

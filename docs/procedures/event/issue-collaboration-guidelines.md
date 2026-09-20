@@ -2,7 +2,7 @@
 
 [中文](./issue-collaboration-guidelines.zh.md) | English
 
-> This document explains how to use Issues, Sub-issues, labels, branches, and Pull Requests for activity collaboration. For the full activity workflow, see the [Event Creation Workflow](./event-creation-workflow.md).
+> This document explains how to use Issues, Sub-issues, labels, branches, and Pull Requests for activity collaboration. For the full activity workflow, see the [Activities and Publicity](./README.md).
 
 ## Title Rules
 

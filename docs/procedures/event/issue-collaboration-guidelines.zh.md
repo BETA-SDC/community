@@ -2,7 +2,7 @@
 
 中文 | [English](./issue-collaboration-guidelines.md)
 
-> 本文档说明活动协作中 Issue、Sub-issue、标签、分支和 Pull Request 的使用方式。完整活动流程见 [活动建立流程](./event-creation-workflow.zh.md)。
+> 本文档说明活动协作中 Issue、Sub-issue、标签、分支和 Pull Request 的使用方式。完整活动流程见 [活动与宣传](./README.zh.md)。
 
 ## 标题规则
 
