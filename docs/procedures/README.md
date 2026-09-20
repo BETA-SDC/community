@@ -7,5 +7,6 @@ This directory stores repeatable workflows and operating procedures for the orga
 ## Activities and Publicity
 
 - [Event Creation Workflow](./event-creation-workflow.md)
+- [event-proposal Repository File Naming Rules (Draft)](./event-proposal-repo-naming-regulation.md)
 - [Media Capture Guidelines](./media-capture-guidelines.md)
 - [Sign-In Record Guidelines](./sign-in-record-guidelines.md)
