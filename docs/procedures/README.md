@@ -8,3 +8,4 @@ This directory stores repeatable workflows and operating procedures for the orga
 
 - [Event Creation Workflow](./event-creation-workflow.md)
 - [Media Capture Guidelines](./media-capture-guidelines.md)
+- [Sign-In Record Guidelines](./sign-in-record-guidelines.md)

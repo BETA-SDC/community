@@ -290,6 +290,7 @@ Issue 编号统一使用两位数字，不足两位时在前面补 `0`，例如 
 - 报名表说明
 - 邮件或群聊通知草稿
 - 预算、物资、场地、人员分工记录
+- 签到记录、报名核对和到场统计
 - 拍摄、宣传、推送或复盘材料
 
 > [!IMPORTANT]
@@ -369,9 +370,12 @@ Sub-issue 需要打上对应的 `message` 标签。这样之后查找“当时�
 
 - 活动是否如期举行
 - 参与人数或大致反馈
+- 报名、签到和实际到场统计
 - 现场照片、视频或其他素材的位置
 - 后续需要复盘的问题
 - 是否有可复用的模板、文案或流程
+
+如果活动有报名、签到、现场补录或到场统计，应参考 [签到记录整理规范](./sign-in-record-guidelines.zh.md)，在活动材料目录下建立 `sign-in/` 子目录，保存 `README.md`、`00-summary.csv` 和分类后的名单 CSV。可参考 [集体生日会签到记录样例](https://github.com/BETA-SDC/event-proposal/tree/main/2026-2027/2026-09-16-group-birthday-ceremony-01/sign-in)。
 
 如果活动产生了官网展示、媒体素材或后续宣传需求，应参考 [素材拍摄与交付规范](./media-capture-guidelines.zh.md) 整理素材。
 
@@ -394,6 +398,7 @@ Sub-issue 需要打上对应的 `message` 标签。这样之后查找“当时�
 - [ ] Pull Request 已关联原 Issue
 - [ ] 正式发送过的消息已创建 Sub-issue 归档
 - [ ] 消息归档 Sub-issue 已添加 `message` 标签
+- [ ] 如有报名或签到，签到记录已按 [签到记录整理规范](./sign-in-record-guidelines.zh.md) 整理并放入 `sign-in/` 目录
 - [ ] 活动结束后需要保存的素材和复盘信息已有记录
 
 ## 常见问题

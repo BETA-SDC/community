@@ -290,6 +290,7 @@ All activity-related files should be completed on the activity branch, including
 - Registration form instructions
 - Email or group notice drafts
 - Budget, materials, venue, and responsibility records
+- Sign-in records, registration checks, and attendance statistics
 - Photography, publicity, publishing, or review materials
 
 > [!IMPORTANT]
@@ -369,9 +370,12 @@ After the activity ends, the owner should add the following information as appro
 
 - Whether the activity was held as scheduled
 - Number of participants or general feedback
+- Registration, sign-in, and actual attendance statistics
 - Location of photos, videos, or other materials
 - Issues that need review
 - Reusable templates, copy, or workflows
+
+If the activity has registration, sign-in, on-site additions, or attendance statistics, follow the [Sign-In Record Guidelines](./sign-in-record-guidelines.md) and create a `sign-in/` subdirectory under the activity materials directory. Save `README.md`, `00-summary.csv`, and categorized list CSV files there. See the [group birthday ceremony sign-in example](https://github.com/BETA-SDC/event-proposal/tree/main/2026-2027/2026-09-16-group-birthday-ceremony-01/sign-in).
 
 If the activity produces website showcase materials, media assets, or later publicity needs, organize the materials according to the [Media Capture Guidelines](./media-capture-guidelines.md).
 
@@ -394,6 +398,7 @@ Before merging a Pull Request, check:
 - [ ] Pull Request links the original Issue
 - [ ] Officially sent messages have been archived in Sub-issues
 - [ ] Message archive Sub-issues have the `message` label
+- [ ] If there is registration or sign-in, sign-in records have been organized according to the [Sign-In Record Guidelines](./sign-in-record-guidelines.md) and placed under `sign-in/`
 - [ ] Materials and review information that need to be saved after the activity have been recorded
 
 ## FAQ

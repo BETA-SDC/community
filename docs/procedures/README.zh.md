@@ -8,3 +8,4 @@
 
 - [活动建立规范流程](./event-creation-workflow.zh.md)
 - [素材拍摄与交付规范](./media-capture-guidelines.zh.md)
+- [签到记录整理规范](./sign-in-record-guidelines.zh.md)
