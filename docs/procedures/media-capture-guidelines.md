@@ -80,3 +80,6 @@ This guideline is intended for small organizations creating media for website di
 | Naming | **Organize folders by date and event** | For example: `2026-09-16-activity-name` |
 | Upload | **Upload original files when possible** | Avoid repeated compression through chat apps before delivery |
 | Notes | **Add a short text description** | Include the event name, shooting time, location, and key people to make materials easier to find later |
+
+> [!IMPORTANT]
+> Activity photos and videos should be uploaded to the [Beta College Album](https://westlakeu.sharepoint.com/sites/beta-college/Album/Forms/AllItems.aspx?viewid=f4bff7b2%2Ddd12%2D43eb%2Da665%2Dd945dfd194c3). Create folders by date and activity name, keep original files when possible, and do not leave materials only in chat records or on personal devices.

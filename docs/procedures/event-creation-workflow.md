@@ -377,6 +377,9 @@ After the activity ends, the owner should add the following information as appro
 
 If the activity has registration, sign-in, on-site additions, or attendance statistics, follow the [Sign-In Record Guidelines](./sign-in-record-guidelines.md) and create a `sign-in/` subdirectory under the activity materials directory. Save `README.md`, `00-summary.csv`, and categorized list CSV files there. See the [group birthday ceremony sign-in example](https://github.com/BETA-SDC/event-proposal/tree/main/2026-2027/2026-09-16-group-birthday-ceremony-01/sign-in).
 
+> [!IMPORTANT]
+> Activity photos and videos should be uploaded to the [Beta College Album](https://westlakeu.sharepoint.com/sites/beta-college/Album/Forms/AllItems.aspx?viewid=f4bff7b2%2Ddd12%2D43eb%2Da665%2Dd945dfd194c3), with folders organized by date and activity name. Do not leave photos or videos only in chat records or on personal devices.
+
 If the activity produces website showcase materials, media assets, or later publicity needs, organize the materials according to the [Media Capture Guidelines](./media-capture-guidelines.md).
 
 ## Pre-Submission Checklist
@@ -399,6 +402,7 @@ Before merging a Pull Request, check:
 - [ ] Officially sent messages have been archived in Sub-issues
 - [ ] Message archive Sub-issues have the `message` label
 - [ ] If there is registration or sign-in, sign-in records have been organized according to the [Sign-In Record Guidelines](./sign-in-record-guidelines.md) and placed under `sign-in/`
+- [ ] Activity photos and videos have been uploaded to the [Beta College Album](https://westlakeu.sharepoint.com/sites/beta-college/Album/Forms/AllItems.aspx?viewid=f4bff7b2%2Ddd12%2D43eb%2Da665%2Dd945dfd194c3)
 - [ ] Materials and review information that need to be saved after the activity have been recorded
 
 ## FAQ

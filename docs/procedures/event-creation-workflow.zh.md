@@ -377,6 +377,9 @@ Sub-issue 需要打上对应的 `message` 标签。这样之后查找“当时�
 
 如果活动有报名、签到、现场补录或到场统计，应参考 [签到记录整理规范](./sign-in-record-guidelines.zh.md)，在活动材料目录下建立 `sign-in/` 子目录，保存 `README.md`、`00-summary.csv` 和分类后的名单 CSV。可参考 [集体生日会签到记录样例](https://github.com/BETA-SDC/event-proposal/tree/main/2026-2027/2026-09-16-group-birthday-ceremony-01/sign-in)。
 
+> [!IMPORTANT]
+> 活动照片和视频应上传到 [Beta College Album](https://westlakeu.sharepoint.com/sites/beta-college/Album/Forms/AllItems.aspx?viewid=f4bff7b2%2Ddd12%2D43eb%2Da665%2Dd945dfd194c3)，并按日期和活动名称整理文件夹。不要只把照片、视频留在聊天记录或个人设备中。
+
 如果活动产生了官网展示、媒体素材或后续宣传需求，应参考 [素材拍摄与交付规范](./media-capture-guidelines.zh.md) 整理素材。
 
 ## 提交前检查
@@ -399,6 +402,7 @@ Sub-issue 需要打上对应的 `message` 标签。这样之后查找“当时�
 - [ ] 正式发送过的消息已创建 Sub-issue 归档
 - [ ] 消息归档 Sub-issue 已添加 `message` 标签
 - [ ] 如有报名或签到，签到记录已按 [签到记录整理规范](./sign-in-record-guidelines.zh.md) 整理并放入 `sign-in/` 目录
+- [ ] 活动照片和视频已上传到 [Beta College Album](https://westlakeu.sharepoint.com/sites/beta-college/Album/Forms/AllItems.aspx?viewid=f4bff7b2%2Ddd12%2D43eb%2Da665%2Dd945dfd194c3)
 - [ ] 活动结束后需要保存的素材和复盘信息已有记录
 
 ## 常见问题

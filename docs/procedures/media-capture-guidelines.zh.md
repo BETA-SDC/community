@@ -80,3 +80,6 @@
 | 命名 | **按日期和活动整理文件夹** | 例如 `2026-09-16-activity-name` |
 | 上传 | **尽量上传原文件** | 不要通过聊天软件反复压缩后再交付 |
 | 说明 | **补充简单文字说明** | 标注活动名称、拍摄时间、地点和关键人物，方便后续查找 |
+
+> [!IMPORTANT]
+> 活动照片和视频应上传到 [Beta College Album](https://westlakeu.sharepoint.com/sites/beta-college/Album/Forms/AllItems.aspx?viewid=f4bff7b2%2Ddd12%2D43eb%2Da665%2Dd945dfd194c3)。上传时按日期和活动名称建立文件夹，并尽量保留原文件，避免只把素材留在聊天记录或个人设备中。
