@@ -4,6 +4,9 @@
 
 > This document is an internal workflow for Beta College SDC.
 
+> [!IMPORTANT]
+> If you are not yet familiar with GitHub Issues, Sub-issues, branches, Pull Requests, or web editing, read [Quick Help for GitHub Beginners and New Members](https://github.com/BETA-SDC/community/blob/main/docs/resources/README.md#L10-L15) before using this workflow to create an activity.
+
 This document is based on [BETA-SDC/event-proposal#5](https://github.com/BETA-SDC/event-proposal/issues/5). It standardizes the basic process from proposing an activity, preparing materials, collaborating on branches, and archiving final information.
 
 ## Table of Contents

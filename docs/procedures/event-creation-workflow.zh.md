@@ -4,6 +4,9 @@
 
 > 本文档属于 β书院 SDC 组织内部工作流程。
 
+> [!IMPORTANT]
+> 如果你还不熟悉 GitHub 的 Issue、Sub-issue、分支、Pull Request 或网页端编辑操作，请先阅读 [GitHub 新手/新成员快速帮助](https://github.com/BETA-SDC/community/blob/main/docs/resources/README.zh.md#L10-L15)，再按本文档建立活动。
+
 本文档整理自 [BETA-SDC/event-proposal#5](https://github.com/BETA-SDC/event-proposal/issues/5)，用于统一活动从想法提出、资料准备、分支协作到信息归档的基本流程。
 
 ## 目录
