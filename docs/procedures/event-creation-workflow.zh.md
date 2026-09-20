@@ -1,5 +1,7 @@
 # 活动建立规范流程
 
+中文 | [English](./event-creation-workflow.md)
+
 > 本文档属于 β书院 SDC 组织内部工作流程。
 
 本文档整理自 [BETA-SDC/event-proposal#5](https://github.com/BETA-SDC/event-proposal/issues/5)，用于统一活动从想法提出、资料准备、分支协作到信息归档的基本流程。

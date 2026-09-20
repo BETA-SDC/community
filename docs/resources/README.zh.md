@@ -1,5 +1,7 @@
 # 参考资料与帮助
 
+中文 | [English](./README.md)
+
 下面是一些资料整合，其中带有`*`标的是较为难读的内容，更适合进阶阅读。
 
 - [资源下载地址汇总](./resource-download-address.md)

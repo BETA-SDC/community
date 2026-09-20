@@ -1,6 +1,6 @@
 # Media Capture Guidelines
 
-中文版：[media-capture-guidelines.zh.md](./media-capture-guidelines.zh.md)
+[中文](./media-capture-guidelines.zh.md) | English
 
 ## Use Cases
 
