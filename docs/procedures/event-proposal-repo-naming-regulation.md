@@ -20,10 +20,11 @@ Issue titles, Sub-issue titles, branch names, and label rules still follow the [
 
 ## Principles
 
-- **Directories describe activities; files describe material types.** Put the activity name and date in the activity directory name. Keep file names as stable material type names.
-- **Use lowercase English and hyphens for file names.** Use `kebab-case`; avoid spaces, Chinese punctuation, mixed capitalization, and temporary descriptions.
-- **Use `YYYY-MM-DD` for dates.** Dates belong in activity directories or materials that genuinely need a date. Avoid `9.16`, `0916`, or natural-language dates.
-- **Use two-digit sequences.** Activity directory suffixes should use `01`, `02`, not `1`, `2`.
+- **Directories describe the series, session number, and session topic; files describe material types.** Activity directory names should prioritize the series so events in the same series naturally group together. Keep file names as stable material type names.
+- **Do not put dates in activity directory names.** Activity time is already recorded in Issues, Sub-issues, Pull Requests, message archives, and activity material content, so directories should not start with dates.
+- **Use uppercase series codes.** Put the series code first, such as `BETA-MEET`. Uppercase is reserved for this classification prefix.
+- **Use two-digit session numbers.** Put a two-digit session number after the series code, such as `01`, `02`, not `1`, `2`.
+- **Use lowercase English and hyphens for the topic.** The specific session topic uses `kebab-case`; avoid spaces, Chinese punctuation, mixed capitalization, and temporary descriptions.
 - **Keep one main directory per activity.** Proposal, poster, sign-in, notification, and review materials for one activity should live under the same activity directory.
 - **Avoid status words in file names.** Do not use words such as `final`, `new`, `latest`, or `revised`; status should be reflected in Git history, Pull Requests, or file content.
 
@@ -37,7 +38,7 @@ event-proposal/
   README.zh.md
   template-for-poster-information.md
   YYYY-YYYY/
-    YYYY-MM-DD-activity-name-two-digit-sequence/
+    SERIES-two-digit-session-specific-topic/
       proposal.md
       poster-information.md
       notification-message.md
@@ -55,6 +56,8 @@ Existing examples:
 - [2026-2027](https://github.com/BETA-SDC/event-proposal/tree/main/2026-2027)
 - [2026-09-09-math-help-group-01](https://github.com/BETA-SDC/event-proposal/tree/main/2026-2027/2026-09-09-math-help-group-01)
 - [2026-09-16-group-birthday-ceremony-01](https://github.com/BETA-SDC/event-proposal/tree/main/2026-2027/2026-09-16-group-birthday-ceremony-01)
+
+The two activity directories above are historical naming examples. New activity directories should use the new format in this document.
 
 ## Academic Year Directory Names
 
@@ -75,26 +78,35 @@ Academic year directories should only identify the academic year. Do not use the
 Activity directories use:
 
 ```text
-YYYY-MM-DD-activity-name-two-digit-sequence
+SERIES-two-digit-session-specific-topic
 ```
 
 Field meanings:
 
-- `YYYY-MM-DD`: expected activity date; for multi-day activities, use the start date
-- `activity-name`: short English activity name in lowercase with hyphens
-- `two-digit-sequence`: distinguishes same-day or same-name activities, starting from `01` by default
+- `SERIES`: series code, placed first, using uppercase English letters and hyphens, such as `BETA-MEET`
+- `two-digit-session`: the session number in that series, using `01`, `02`, `03`
+- `specific-topic`: the specific topic of this session, using lowercase English and hyphens
 
 Examples:
 
-- [2026-09-09-math-help-group-01](https://github.com/BETA-SDC/event-proposal/tree/main/2026-2027/2026-09-09-math-help-group-01)
-- [2026-09-16-group-birthday-ceremony-01](https://github.com/BETA-SDC/event-proposal/tree/main/2026-2027/2026-09-16-group-birthday-ceremony-01)
+```text
+BETA-MEET-01-the-field-experience-of-an-ecologist
+BETA-MEET-02-topic-of-the-next-session
+MATH-HELP-01-calculus-review
+GROUP-BIRTHDAY-01-autumn-birthday-ceremony
+```
+
+With this format, activities in the same series naturally group together by directory name. Dates can still be recorded in the [main activity Issue](./event-creation-workflow.md), message archive Sub-issues, `proposal.md`, and `poster-information.md`.
 
 Not recommended:
 
 ```text
 2026.09.09 Math Help
 2026-09-09-math-help-group-1
-group-birthday-final
+BETA-MEET-1-the-field-experience-of-an-ecologist
+beta-meet-01-the-field-experience-of-an-ecologist
+BETA-MEET-01
+BETA-MEET-01-final
 生日会材料
 ```
 
@@ -160,9 +172,10 @@ The following should not usually be committed directly:
 
 ## Pre-Submission Checklist
 
-- [ ] Activity directory follows `YYYY-MM-DD-activity-name-two-digit-sequence`
-- [ ] Activity directory sequence uses two digits, such as `01`
-- [ ] File names use lowercase English and hyphens
+- [ ] Activity directory follows `SERIES-two-digit-session-specific-topic`
+- [ ] Series code is uppercase, such as `BETA-MEET`
+- [ ] Session number uses two digits, such as `01`
+- [ ] Topic and file names use lowercase English and hyphens
 - [ ] Proposal uses `proposal.md`
 - [ ] Poster information form uses `poster-information.md`
 - [ ] Notification copy draft prefers `notification-message.md`

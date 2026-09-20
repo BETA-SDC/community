@@ -20,10 +20,11 @@ Issue 标题、Sub-issue 标题、分支名称和标签规则仍以 [活动建�
 
 ## 基本原则
 
-- **目录表达活动，文件表达材料类型。** 活动名称和日期放在活动目录名中，文件名尽量使用稳定的材料类型名称。
-- **文件名使用英文小写和连字符。** 使用 `kebab-case`，避免空格、中文标点、大小写混用和临时描述。
-- **日期使用 `YYYY-MM-DD`。** 日期用于活动目录或确实需要区分日期的材料，不随意写成 `9.16`、`0916` 或自然语言日期。
-- **序号使用两位数字。** 活动目录末尾序号使用 `01`、`02`，不要使用 `1`、`2`。
+- **目录表达系列、期数和本期主题，文件表达材料类型。** 活动目录名优先体现系列活动，使同一系列自然聚在一起；文件名尽量使用稳定的材料类型名称。
+- **活动目录不带日期。** 活动时间由 Issue、Sub-issue、Pull Request、通知归档和活动材料正文记录，目录名不再以日期开头。
+- **系列代号全大写。** 系列活动放在目录名最前面，例如 `BETA-MEET`。大写只用于系列代号，表示它是分类前缀。
+- **期数使用两位数字。** 系列代号后接两位期数，例如 `01`、`02`，不要使用 `1`、`2`。
+- **主题使用英文小写和连字符。** 本期具体主题使用 `kebab-case`，避免空格、中文标点、大小写混用和临时描述。
 - **同一活动只保留一个主目录。** 同一活动的策划、海报、签到、通知和复盘材料都应放在同一活动目录下。
 - **避免把状态写进文件名。** 不建议使用 `final`、`new`、`latest`、`修改版` 等词；状态应通过 Git 历史、Pull Request 或文件内容说明。
 
@@ -37,7 +38,7 @@ event-proposal/
   README.zh.md
   template-for-poster-information.md
   YYYY-YYYY/
-    YYYY-MM-DD-activity-name-两位序号/
+    SERIES-两位期数-specific-topic/
       proposal.md
       poster-information.md
       notification-message.md
@@ -55,6 +56,8 @@ event-proposal/
 - [2026-2027](https://github.com/BETA-SDC/event-proposal/tree/main/2026-2027)
 - [2026-09-09-math-help-group-01](https://github.com/BETA-SDC/event-proposal/tree/main/2026-2027/2026-09-09-math-help-group-01)
 - [2026-09-16-group-birthday-ceremony-01](https://github.com/BETA-SDC/event-proposal/tree/main/2026-2027/2026-09-16-group-birthday-ceremony-01)
+
+以上两个活动目录是历史命名示例，后续新增活动应使用本文档的新命名格式。
 
 ## 学年目录命名
 
@@ -75,26 +78,35 @@ YYYY-YYYY
 活动目录使用：
 
 ```text
-YYYY-MM-DD-activity-name-两位序号
+SERIES-两位期数-specific-topic
 ```
 
 字段说明：
 
-- `YYYY-MM-DD`：活动预计举行日期；如果是连续多日活动，使用开始日期
-- `activity-name`：活动英文短名，使用小写英文和连字符
-- `两位序号`：同一天或同名活动需要区分时使用，默认从 `01` 开始
+- `SERIES`：系列活动代号，放在最前面，使用全大写英文和连字符，例如 `BETA-MEET`
+- `两位期数`：该系列的第几期，使用 `01`、`02`、`03`
+- `specific-topic`：本期活动具体主题，使用英文小写和连字符
 
 示例：
 
-- [2026-09-09-math-help-group-01](https://github.com/BETA-SDC/event-proposal/tree/main/2026-2027/2026-09-09-math-help-group-01)
-- [2026-09-16-group-birthday-ceremony-01](https://github.com/BETA-SDC/event-proposal/tree/main/2026-2027/2026-09-16-group-birthday-ceremony-01)
+```text
+BETA-MEET-01-the-field-experience-of-an-ecologist
+BETA-MEET-02-topic-of-the-next-session
+MATH-HELP-01-calculus-review
+GROUP-BIRTHDAY-01-autumn-birthday-ceremony
+```
+
+这样命名后，同一系列活动会按目录名自然聚在一起；日期仍可以在 [活动主 Issue](./event-creation-workflow.zh.md)、通知归档 Sub-issue、`proposal.md` 和 `poster-information.md` 中记录。
 
 不推荐：
 
 ```text
 2026.09.09 Math Help
 2026-09-09-math-help-group-1
-group-birthday-final
+BETA-MEET-1-the-field-experience-of-an-ecologist
+beta-meet-01-the-field-experience-of-an-ecologist
+BETA-MEET-01
+BETA-MEET-01-final
 生日会材料
 ```
 
@@ -160,9 +172,10 @@ group-birthday-final
 
 ## 提交前检查
 
-- [ ] 活动目录符合 `YYYY-MM-DD-activity-name-两位序号`
-- [ ] 活动目录序号使用两位数字，例如 `01`
-- [ ] 文件名使用英文小写和连字符
+- [ ] 活动目录符合 `SERIES-两位期数-specific-topic`
+- [ ] 系列代号全大写，例如 `BETA-MEET`
+- [ ] 期数使用两位数字，例如 `01`
+- [ ] 主题和文件名使用英文小写和连字符
 - [ ] 策划案使用 `proposal.md`
 - [ ] 海报信息表使用 `poster-information.md`
 - [ ] 通知文案草稿优先使用 `notification-message.md`
