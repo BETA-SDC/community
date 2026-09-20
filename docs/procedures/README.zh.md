@@ -7,6 +7,8 @@
 ## 活动与宣传
 
 - [活动建立规范流程](./event-creation-workflow.zh.md)
+- [Issue 协作规范](./issue-collaboration-guidelines.zh.md)
 - [event-proposal 仓库文件命名规范（草稿）](./event-proposal-repo-naming-regulation.zh.md)
+- [通知归档规范](./message-archive-guidelines.zh.md)
 - [素材拍摄与交付规范](./media-capture-guidelines.zh.md)
 - [签到记录整理规范](./sign-in-record-guidelines.zh.md)
