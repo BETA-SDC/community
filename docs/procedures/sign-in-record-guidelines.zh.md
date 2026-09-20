@@ -8,6 +8,9 @@
 
 当活动存在报名、签到、现场补录、临时取消或需要统计实际到场人数时，应在活动材料目录下整理签到记录。签到记录用于复盘活动参与情况、核对报名转化、支持后续报销或活动总结，不应只保存在个人表格、聊天记录或临时接龙中。
 
+> [!IMPORTANT]
+> 签到记录需要同时保留“数字”和“口径”。如果只有最终人数，没有数据来源、分类名单和异常说明，后续很难复盘报名转化、缺席原因或现场补录情况。
+
 可参考 [集体生日会签到记录样例](https://github.com/BETA-SDC/event-proposal/tree/main/2026-2027/2026-09-16-GROUP-BIRTHDAY-01-2026-fall/sign-in)，其中包含说明文档和分类后的 CSV 文件。
 
 样例文件包括：[README.md](https://github.com/BETA-SDC/event-proposal/blob/main/2026-2027/2026-09-16-GROUP-BIRTHDAY-01-2026-fall/sign-in/README.md)、[00-summary.csv](https://github.com/BETA-SDC/event-proposal/blob/main/2026-2027/2026-09-16-GROUP-BIRTHDAY-01-2026-fall/sign-in/00-summary.csv)、[01-registered-attended.csv](https://github.com/BETA-SDC/event-proposal/blob/main/2026-2027/2026-09-16-GROUP-BIRTHDAY-01-2026-fall/sign-in/01-registered-attended.csv)、[02-registered-absent.csv](https://github.com/BETA-SDC/event-proposal/blob/main/2026-2027/2026-09-16-GROUP-BIRTHDAY-01-2026-fall/sign-in/02-registered-absent.csv)、[03-registered-cancelled.csv](https://github.com/BETA-SDC/event-proposal/blob/main/2026-2027/2026-09-16-GROUP-BIRTHDAY-01-2026-fall/sign-in/03-registered-cancelled.csv) 和 [04-unregistered-attended.csv](https://github.com/BETA-SDC/event-proposal/blob/main/2026-2027/2026-09-16-GROUP-BIRTHDAY-01-2026-fall/sign-in/04-unregistered-attended.csv)。
@@ -116,6 +119,9 @@
 - `04-unregistered-attended.csv`：未报名但到场
 
 如果需要保存学号、学院、联系方式等额外字段，应确认这些信息确实有必要保留，并避免公开不必要的个人敏感信息。
+
+> [!CAUTION]
+> 不要为了“原样备份”而提交包含大量手机号、学号、身份证号、详细联系方式或无关备注的原始表格。确需保留敏感字段时，应先确认访问范围和保存必要性。
 
 ## 整理规则
 

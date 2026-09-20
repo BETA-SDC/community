@@ -124,6 +124,9 @@ The Issue should include at least:
 - Known key deadlines
 - Whether posters, registration forms, group notices, email notices, or other materials are needed
 
+> [!TIP]
+> The main activity Issue title only needs to state the activity name, such as `[event] BETA MEET: The Field Experience of an Ecologist`. Do not add ` - ` just to split fields; ` - ` is mainly for multi-field Sub-issues such as tasks, message archives, and wrap-up items.
+
 If the idea is not mature yet, it is still fine to open an Issue for discussion. The purpose of an Issue is not to prove that the plan is perfect, but to give the item a traceable entry point.
 
 ### 2. Notify Relevant People
@@ -343,6 +346,9 @@ After emails, group messages, registration notices, recruitment copy, or other n
 
 Here, “archive” means creating a new Sub-issue under the corresponding activity main Issue according to the message archive rules, then copying the actually sent information into it in full. The Sub-issue is not the sending channel itself; it is part of the activity record used to confirm what was sent, when, through which channel, and by whom.
 
+> [!IMPORTANT]
+> Message archives should reflect what was actually sent. Drafts may be edited in branch files, but after official sending, create a `[message]` Sub-issue under the corresponding main activity Issue and copy the final sent version into it in full.
+
 The Sub-issue should include:
 
 - Full content of the sent copy
@@ -378,6 +384,9 @@ After the activity ends, the owner should add the following information as appro
 - Reusable templates, copy, or workflows
 
 If the activity has registration, sign-in, on-site additions, or attendance statistics, follow the [Sign-In Record Guidelines](./sign-in-record-guidelines.md) and create a `sign-in/` subdirectory under the activity materials directory. Save `README.md`, `00-summary.csv`, and categorized list CSV files there. See the [group birthday ceremony sign-in example](https://github.com/BETA-SDC/event-proposal/tree/main/2026-2027/2026-09-16-GROUP-BIRTHDAY-01-2026-fall/sign-in).
+
+> [!NOTE]
+> A sign-in record is more than a final attendance count. It should preserve the data source, counting rules, categorized lists, and any exception handling. If personal information is involved, keep only the fields that are actually needed for activity review.
 
 > [!IMPORTANT]
 > Activity photos and videos should be uploaded to the [Beta College Album](https://westlakeu.sharepoint.com/sites/beta-college/Album/Forms/AllItems.aspx?viewid=f4bff7b2%2Ddd12%2D43eb%2Da665%2Dd945dfd194c3), with folders organized by date and activity name. Do not leave photos or videos only in chat records or on personal devices.

@@ -110,6 +110,9 @@ For example, `2026-09-19-self-study-check-in`.
 
 With this format, activities naturally sort by date while the series code and session number remain clear.
 
+> [!IMPORTANT]
+> Do not omit `SERIES` or the two-digit session number in series activity directories. Only the final `specific-topic` may be omitted when the series name and session number are already clear, such as `2026-09-09-MATH-HELP-ROOM-01`.
+
 Not recommended:
 
 ```text
@@ -211,6 +214,9 @@ The following should not usually be committed directly:
 - Original registration forms, Excel files, or screenshots containing significant personal information
 - One-off images, QR codes, or reference images that can be kept as Issue attachments
 - Temporary files without organization notes
+
+> [!CAUTION]
+> The repository is for organized activity materials and traceable notes. It is not the right place for large media files or unnecessary personal sensitive information. Put photos and videos in the Album; attach one-time images, QR codes, and reference images to the corresponding Sub-issue when possible.
 
 ## Pre-Submission Checklist
 

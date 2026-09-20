@@ -110,6 +110,9 @@ YYYY-MM-DD-specific-topic
 
 这样命名后，活动会按日期自然排序，同时系列代号和期数仍然清楚。
 
+> [!IMPORTANT]
+> 系列活动目录中的 `SERIES` 和两位期数不要省略；只有最后的 `specific-topic` 可以在系列名和期数已经足够清楚时省略，例如 `2026-09-09-MATH-HELP-ROOM-01`。
+
 不推荐：
 
 ```text
@@ -211,6 +214,9 @@ This directory stores materials for BETA MEET 01.
 - 包含大量个人信息的原始报名表、Excel 或截图
 - 可以通过 Issue 附件保存的一次性图片、二维码或参考图
 - 没有整理说明的临时文件
+
+> [!CAUTION]
+> 仓库适合保存整理后的活动材料和可追溯说明，不适合保存大体积媒体文件或不必要的个人敏感信息。照片、视频放 Album；一次性图片、二维码和参考图优先挂在对应 Sub-issue 附件中。
 
 ## 提交前检查
 

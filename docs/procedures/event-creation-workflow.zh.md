@@ -124,6 +124,9 @@ Issue 中建议至少包含以下信息：
 - 已知的关键截止时间
 - 是否需要海报、报名表、群聊通知、邮件通知等材料
 
+> [!TIP]
+> 活动主 Issue 的标题只需要写清楚活动名称，例如 `[event] BETA MEET: The Field Experience of an Ecologist`。不要为了拆字段而强行加入 ` - `；` - ` 主要用于任务、通知归档和收尾等多字段 Sub-issue。
+
 如果想法还不成熟，也可以先开 Issue 进行讨论。Issue 的作用不是证明方案已经完美，而是让事情有一个可追踪的入口。
 
 ### 2. 通知相关人员
@@ -343,6 +346,9 @@ Update group birthday ceremony materials
 
 这里的“归档”指的是：在对应活动主 Issue 下面，按消息归档规范新建一个 Sub-issue，并把已经实际发送的信息完整复制一份存进去。Sub-issue 不是通知发送渠道本身，而是活动记录的一部分，用于之后确认当时发送了什么、什么时候发送、通过什么渠道发送以及由谁发送。
 
+> [!IMPORTANT]
+> 通知归档以实际发送后的内容为准。草稿可以放在分支文件中协作，但正式发送后必须在对应活动主 Issue 下开 `[message]` Sub-issue，把最终发送版本完整复制进去。
+
 Sub-issue 应包含：
 
 - 已发送文案的完整内容
@@ -378,6 +384,9 @@ Sub-issue 需要打上对应的 `message` 标签。这样之后查找“当时�
 - 是否有可复用的模板、文案或流程
 
 如果活动有报名、签到、现场补录或到场统计，应参考 [签到记录整理规范](./sign-in-record-guidelines.zh.md)，在活动材料目录下建立 `sign-in/` 子目录，保存 `README.md`、`00-summary.csv` 和分类后的名单 CSV。可参考 [集体生日会签到记录样例](https://github.com/BETA-SDC/event-proposal/tree/main/2026-2027/2026-09-16-GROUP-BIRTHDAY-01-2026-fall/sign-in)。
+
+> [!NOTE]
+> 签到记录不是只存一个到场人数。至少应能追溯数据来源、统计口径、分类名单和异常处理方式；如果涉及个人信息，只保留活动复盘确实需要的字段。
 
 > [!IMPORTANT]
 > 活动照片和视频应上传到 [Beta College Album](https://westlakeu.sharepoint.com/sites/beta-college/Album/Forms/AllItems.aspx?viewid=f4bff7b2%2Ddd12%2D43eb%2Da665%2Dd945dfd194c3)，并按日期和活动名称整理文件夹。不要只把照片、视频留在聊天记录或个人设备中。
