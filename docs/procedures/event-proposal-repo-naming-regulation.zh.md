@@ -132,7 +132,7 @@ GROUP-BIRTHDAY-2026-FALL-01
 建议包含：
 
 - 活动名称
-- 对应的活动主 Issue，例如 `[event] BETA MEET - The Field Experience of an Ecologist`
+- 对应的活动主 Issue，例如 `[event] BETA MEET: The Field Experience of an Ecologist`
 - 活动时间或期数信息
 - 目录内主要文件说明
 - 重要外部链接，例如报名表、Album 文件夹、活动总结等

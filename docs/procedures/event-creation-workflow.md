@@ -187,7 +187,7 @@ General title rules:
 
 - Use English half-width square brackets as the type prefix, such as `[event]`, `[task]`, and `[message]`
 - Add one space after the prefix, then write the activity or item name
-- Use ` - ` to separate fields in the title
+- When a title actually contains multiple fields, use ` - ` to separate them, such as in task, message archive, and wrap-up Sub-issues. A main activity Issue usually contains only the activity name and does not need an extra separator
 - Keep the `Activity Name` consistent for the same activity; do not mix abbreviations, Chinese names, and English names
 - Make item names specific to deliverables or checkable results, avoiding vague words such as “follow up,” “handle,” or “prepare”
 - Use `YYYY-MM-DD` for dates

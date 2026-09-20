@@ -132,7 +132,7 @@ Each activity directory should include a `README.md` that briefly introduces the
 It should include:
 
 - Activity name
-- Corresponding main activity Issue, such as `[event] BETA MEET - The Field Experience of an Ecologist`
+- Corresponding main activity Issue, such as `[event] BETA MEET: The Field Experience of an Ecologist`
 - Activity date or session information
 - Main files in the directory
 - Important external links, such as registration forms, Album folders, or activity summaries
