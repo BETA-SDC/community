@@ -258,13 +258,15 @@ Issue 和 Sub-issue 应根据用途添加标签。建议使用少量稳定标签
 推荐命名格式：
 
 ```text
-issue编号-活动短名
+两位issue编号-活动短名
 ```
+
+Issue 编号统一使用两位数字，不足两位时在前面补 `0`，例如 `05`。如果早期分支或引用中已经出现了一位编号，应在后续整理时更正为两位编号。
 
 示例：
 
 ```text
-5-standard-workflow
+05-standard-workflow
 12-math-help-room
 18-group-birthday
 ```
@@ -287,14 +289,16 @@ issue编号-活动短名
 推荐活动文件夹命名格式：
 
 ```text
-YYYY-MM-DD-activity-name
+YYYY-MM-DD-activity-name-两位序号
 ```
+
+同一天或同一活动名下需要区分多个版本、批次或同名事项时，末尾序号统一使用两位数字，不足两位时在前面补 `0`，例如 `01`、`02`。历史目录中已经出现的 `-1`、`-2` 等一位序号，应在不影响正在进行的 Pull Request 和链接引用的前提下改为 `-01`、`-02`。
 
 示例：
 
 ```text
-2026-09-09-math-help-group-1
-2026-09-16-group-birthday-ceremony-1
+2026-09-09-math-help-group-01
+2026-09-16-group-birthday-ceremony-01
 ```
 
 在协作过程中，尽量把重要决定写回 Issue 或相关 Markdown 文件，不只留在聊天记录里。
