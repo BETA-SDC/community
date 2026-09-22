@@ -5,6 +5,7 @@
 The following links collect useful references. Items marked with `*` are more difficult and better suited for advanced reading.
 
 - [Resource Download Address Collection](./resource-download-address.md)
+- [SDC Member Standards Test](./member-test/questions.md)
 
 <details>
 <summary>Quick Help for GitHub Beginners and New Members</summary>

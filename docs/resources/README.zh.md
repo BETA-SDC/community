@@ -5,6 +5,7 @@
 下面是一些资料整合，其中带有`*`标的是较为难读的内容，更适合进阶阅读。
 
 - [资源下载地址汇总](./resource-download-address.md)
+- [SDC 成员规范测试题库](./member-test/questions.md)
 
 <details>
 <summary>GitHub新手/新成员快速帮助</summary>

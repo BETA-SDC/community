@@ -17,6 +17,7 @@
 
 - [2026–2027 学年成员名册](members/2026-2027.csv)
 - [2025–2026 学年成员名册](members/2025-2026.csv)
+- [SDC 成员规范测试题库](docs/resources/member-test/questions.md)
 - [文档总入口](docs/README.zh.md)
 - [2026 年值日与大扫除规章](docs/regulations/duty_roster_regulation_2026.md)
 - [活动与宣传](docs/procedures/event/README.zh.md)
