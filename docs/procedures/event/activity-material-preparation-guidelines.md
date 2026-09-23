@@ -54,7 +54,7 @@ When using leftover food, check the expiration date, packaging, and whether it i
 
 - Buy food and drinks offline when freshness matters.
 - Packaged snacks and bottled drinks may be purchased online in advance.
-- If an on-campus C19 Tmall Supermarket account purchase is needed, contact the [Beta College counselor](https://github.com/BETA-SDC/community-private-information/blob/49-sensitive-data-protection/text/contacts/general.md#role-beta-college-counselor) in advance to confirm the process, purchase scope, and contact method.
+- If an on-campus C19 Tmall Supermarket account purchase is needed, contact the [Beta College counselor](https://github.com/BETA-SDC/community-private-information/blob/main/text/contacts/general.md#role-beta-college-counselor) in advance to confirm the process, purchase scope, and contact method.
 - Do not wait until the activity day to confirm the account process.
 
 For fresh food, drinks, or urgent supplies, one possible offline option is:
@@ -140,7 +140,7 @@ Give bills, invoices, trip itineraries, and other PDF or image receipts to the a
 - [ ] School, college, and previous-activity inventory has been checked
 - [ ] Physical prizes, customized items, and delivered supplies were purchased early
 - [ ] Food and drinks were planned for online or offline purchase according to freshness needs
-- [ ] The C19 Tmall Supermarket account process was confirmed with the [Beta College counselor](https://github.com/BETA-SDC/community-private-information/blob/49-sensitive-data-protection/text/contacts/general.md#role-beta-college-counselor) in advance
+- [ ] The C19 Tmall Supermarket account process was confirmed with the [Beta College counselor](https://github.com/BETA-SDC/community-private-information/blob/main/text/contacts/general.md#role-beta-college-counselor) in advance
 - [ ] The offline purchase location, budget, invoice, and transportation plan are confirmed
 - [ ] The sign-in sheet is printed with blank rows for unregistered attendees
 - [ ] Guest drinks, reception, and guidance arrangements are confirmed

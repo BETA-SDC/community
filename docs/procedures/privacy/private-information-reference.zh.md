@@ -15,6 +15,17 @@
 
 不要把私有内容复制到公开仓库。公开文档本身应当可读，只为有权限的人补充私有链接。
 
+## invoice 仓库例外
+
+[`BETA-SDC/invoice`](https://github.com/BETA-SDC/invoice) 本身是私有仓库，主要用于保存报销所需的结构化票据、付款人信息和相关凭证。为了保证报销流程和票据追溯，`invoice` 中已有的付款人姓名、联系方式等信息不需要强制迁移、脱敏或删除。
+
+如果某些信息也需要作为社区内部通用资料保存，可以同步记录到 [`community-private-information`](https://github.com/BETA-SDC/community-private-information)，但应注意：
+
+- `invoice` 仍然是报销资料和票据记录的主要来源。
+- `community-private-information` 中的副本属于补充记录，不要与 `invoice` 形成互相冲突的两份主要数据。
+- 需要同步保存时，应在私有记录中注明对应的活动、报销目录或 `invoice` 链接。
+- 不要因为联系方式已经出现在 `invoice` 中，就把它复制到公开仓库。
+
 ## 纯文本引用
 
 当公开文档需要指向私有文字时，先在私有仓库中建立 Markdown 文件，再从公开文档链接过去：
