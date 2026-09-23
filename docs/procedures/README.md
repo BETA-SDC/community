@@ -7,3 +7,4 @@ This directory stores repeatable workflows and operating procedures for the orga
 ## Topics
 
 - [Activities and Publicity](./event/README.md)
+- [Private Information References](./privacy/private-information-reference.md)
