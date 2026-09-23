@@ -14,6 +14,7 @@
 | 开活动、推进流程 | 本文档 |
 | Issue 标题、标签、分支、PR | [Issue 协作规范](./issue-collaboration-guidelines.zh.md) |
 | 活动材料目录和文件命名 | [event-proposal 仓库文件命名规范](./event-proposal-repo-naming-regulation.zh.md) |
+| 活动物资准备 | [活动物资准备参考指南](./activity-material-preparation-guidelines.zh.md) |
 | 正式通知归档 | [通知归档规范](./message-archive-guidelines.zh.md) |
 | 签到和到场统计 | [签到记录整理规范](./sign-in-record-guidelines.zh.md) |
 | 照片、视频、媒体素材 | [素材拍摄与交付规范](./media-capture-guidelines.zh.md) |

@@ -14,6 +14,7 @@
 | Create and run an activity | This document |
 | Issue titles, labels, branches, PRs | [Issue Collaboration Guidelines](./issue-collaboration-guidelines.md) |
 | Activity material directory and file names | [event-proposal Repository File Naming Rules](./event-proposal-repo-naming-regulation.md) |
+| Activity material preparation | [Activity Materials Preparation Guidelines](./activity-material-preparation-guidelines.md) |
 | Official message archives | [Message Archive Guidelines](./message-archive-guidelines.md) |
 | Sign-in and attendance statistics | [Sign-In Record Guidelines](./sign-in-record-guidelines.md) |
 | Photos, videos, and media assets | [Media Capture Guidelines](./media-capture-guidelines.md) |
