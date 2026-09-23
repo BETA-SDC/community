@@ -12,14 +12,39 @@ General rules:
 
 - Use fixed prefixes such as `[event]`, `[task]`, and `[message]`
 - Add one space after the prefix, then write the activity or item name
+- English is recommended for Issue titles and bodies to improve cross-member and cross-tool search; Chinese is fully accepted when it is clearer or more natural
 - A main activity Issue usually contains only the activity name and does not need extra fields
 - Sub-issue titles must include the parent activity or item name; do not write only the task itself
 - Sub-issues use ` - `, with spaces on both sides, to separate the parent, task, channel, date, or other fields, keeping parent-child relationships and item levels clear
 - Keep the activity name consistent for the same activity
 - Use `YYYY-MM-DD` for dates
 
+Series activity main Issue titles should contain the series name, session number, and session topic. English is preferred, while Chinese is also valid:
+
+```text
+[event] Beta Meet 08 - The Field Experience of an Ecologist
+[event] Beta Meet 第8期 - 王璟老师的科幻讲座
+```
+
+Beta Meet session numbers continue from the existing sequence. The former reading-discussion series has been merged into Beta Meet and does not use a separate numbering system:
+
+```text
+Reading discussion session 1 -> Beta Meet 第8期
+Reading discussion session 2 -> Beta Meet 第9期
+Reading discussion session 3 -> Beta Meet 第10期
+```
+
+Task and message archive titles must copy the parent activity name exactly instead of changing its language or session number:
+
+```text
+[task] Beta Meet 08 - The Field Experience of an Ecologist - Create poster
+[message] Beta Meet 第8期 - 王璟老师的科幻讲座 - 邮件通知 - 2026-09-23
+```
+
 > [!TIP]
-> `[event] BETA MEET: The Field Experience of an Ecologist` is a main activity Issue title. `[task] BETA MEET: The Field Experience of an Ecologist - Create poster` is the corresponding Sub-issue title. Do not write `[task] Create poster` or `[task] BETA MEET: The Field Experience of an Ecologist-Create poster`.
+> Use the language that fits the activity, but keep the main Issue, Sub-issues, and message archives exactly consistent for the same activity. Do not write `[task] Create poster` or `[task] Beta Meet 08-The Field Experience of an Ecologist-Create poster`.
+
+Issue title rules are separate from repository directory naming. `event-proposal` directories and files continue to use the existing `YYYY-MM-DD-SERIES-two-digit-session[-specific-topic]` convention; do not copy Chinese Issue session notation into directory names.
 
 ## Common Title Formats
 

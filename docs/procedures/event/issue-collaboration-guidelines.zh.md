@@ -12,14 +12,39 @@
 
 - 前缀使用 `[event]`、`[task]`、`[message]` 等固定形式
 - 前缀后空一格，再写活动名称或事项名称
+- Issue 标题和正文推荐使用 English，便于跨成员、跨工具检索；中文完全允许，不要求为了语言统一而强行翻译
 - 活动主 Issue 通常只写活动名称，不需要额外字段
 - Sub-issue 标题必须带上 parent 活动名称或事项名称，不能只写任务本身
 - Sub-issue 使用前后带空格的 ` - ` 分隔 parent、任务、渠道、日期等字段，让父子关系和事项层级更清楚
 - 同一活动的活动名称应保持一致
 - 涉及日期时统一使用 `YYYY-MM-DD`
 
+系列活动的主 Issue 标题应包含系列名称、期号和本期主题。English 是推荐写法，中文写法同样有效：
+
+```text
+[event] Beta Meet 08 - The Field Experience of an Ecologist
+[event] Beta Meet 第8期 - 王璟老师的科幻讲座
+```
+
+Beta Meet 的期号沿用已有编号继续递增。阅读交流会已经并入 Beta Meet，不再另起一套期号：
+
+```text
+阅读交流会第1期 -> Beta Meet 第8期
+阅读交流会第2期 -> Beta Meet 第9期
+阅读交流会第3期 -> Beta Meet 第10期
+```
+
+任务和消息归档必须复制 parent 的活动名称，不能自行改写语言或期号：
+
+```text
+[task] Beta Meet 08 - The Field Experience of an Ecologist - Create poster
+[message] Beta Meet 第8期 - 王璟老师的科幻讲座 - 邮件通知 - 2026-09-23
+```
+
 > [!TIP]
-> `[event] BETA MEET: The Field Experience of an Ecologist` 是活动主 Issue 标题；`[task] BETA MEET: The Field Experience of an Ecologist - 制作海报` 是对应 Sub-issue 标题。不要写成 `[task] 制作海报` 或 `[task] BETA MEET: The Field Experience of an Ecologist-制作海报`。
+> Issue 标题使用活动实际采用的语言即可，但同一活动的主 Issue、Sub-issue 和消息归档必须保持名称完全一致。不要写成 `[task] Create poster` 或 `[task] Beta Meet 08-The Field Experience of an Ecologist-Create poster`。
+
+Issue 标题规则与仓库目录命名规则分别管理。`event-proposal` 的活动目录和文件名继续使用现有的 `YYYY-MM-DD-SERIES-两位期数[-specific-topic]` 规则；不要把 Issue 标题中的中文期号直接套用到目录名。
 
 ## 常用标题格式
 

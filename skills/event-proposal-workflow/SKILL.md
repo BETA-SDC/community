@@ -88,6 +88,7 @@ community/skills/<skill-name>/SKILL.md
 
 - 先扫描全部 Issue，包括已关闭 Issue。
 - 先判断 Issue 是活动主入口还是通知归档。
+- Issue 标题推荐使用 English，但中文允许；系列活动标题应包含系列名称、期号和主题。
 - 活动主 Issue 和通知归档不能混为一个 Issue。
 - `[event]` 主 Issue 不得带 `message`。
 - `[message]` 归档 Issue 不得带 `event`。
@@ -264,6 +265,8 @@ gh issue list --repo BETA-SDC/event-proposal --state all \
 - 通知归档是否有 parent。
 - 任务是否有 `task` 标签和 assignee。
 - 日期是否使用 `YYYY-MM-DD`。
+- 系列 Issue 是否沿用已有期号，且主 Issue、Sub-issue 和消息归档的活动名称完全一致。
+- Issue 标题语言是否以 English 为推荐、中文为允许，而不是强制翻译。
 
 专门检查混用：
 

@@ -40,6 +40,8 @@ description: Archive sent BETA-SDC activity emails, group notices, reminders, an
 [message] Group Birthday Ceremony - 微信群通知 - 2026-09-16
 ```
 
+Issue 标题推荐使用 English，但中文完全允许。消息归档必须复制 parent 活动 Issue 的活动名称、语言和期号，不要在归档标题中自行翻译或重新编号。
+
 标签：
 
 - 邮件：`message` + `mail`

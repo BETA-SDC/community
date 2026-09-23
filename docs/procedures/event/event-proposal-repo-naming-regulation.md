@@ -16,7 +16,7 @@ This guideline applies to files and directories in the [`event-proposal`](https:
 - Sign-in record directories and CSV files
 - Other materials directly related to a single activity
 
-Issue titles, Sub-issue titles, branch names, and label rules still follow the [Activities and Publicity](./README.md).
+Issue titles, Sub-issue titles, branch names, and label rules still follow the [Activities and Publicity](./README.md). English is recommended for Issues, but Chinese is also accepted; this document only defines repository directory and file naming and does not change the Issue language policy.
 
 ## Principles
 
@@ -135,7 +135,7 @@ Each activity directory should include a `README.md` that briefly introduces the
 It should include:
 
 - Activity name
-- Corresponding main activity Issue, such as `[event] BETA MEET: The Field Experience of an Ecologist`
+- Corresponding main activity Issue, such as `[event] Beta Meet 08 - The Field Experience of an Ecologist` or `[event] Beta Meet 第8期 - 王璟老师的科幻讲座`
 - Activity date or session information
 - Main files in the directory
 - Important external links, such as registration forms, Album folders, or activity summaries

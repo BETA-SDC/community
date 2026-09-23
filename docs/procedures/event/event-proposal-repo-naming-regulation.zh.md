@@ -16,7 +16,7 @@
 - 签到记录目录和 CSV 文件
 - 其他与单个活动直接相关的材料
 
-Issue 标题、Sub-issue 标题、分支名称和标签规则仍以 [活动与宣传](./README.zh.md) 为准。
+Issue 标题、Sub-issue 标题、分支名称和标签规则仍以 [活动与宣传](./README.zh.md) 为准。Issue 推荐使用 English，但中文也允许；本文件只规定仓库目录和文件命名，不改变 Issue 的语言选择。
 
 ## 基本原则
 
@@ -135,7 +135,7 @@ GROUP-BIRTHDAY-2026-FALL-01
 建议包含：
 
 - 活动名称
-- 对应的活动主 Issue，例如 `[event] BETA MEET: The Field Experience of an Ecologist`
+- 对应的活动主 Issue，例如 `[event] Beta Meet 08 - The Field Experience of an Ecologist` 或 `[event] Beta Meet 第8期 - 王璟老师的科幻讲座`
 - 活动时间或期数信息
 - 目录内主要文件说明
 - 重要外部链接，例如报名表、Album 文件夹、活动总结等

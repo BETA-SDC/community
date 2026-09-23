@@ -30,7 +30,9 @@
 7. **活动后收尾。** 补充签到统计、照片视频位置、复盘记录和可复用材料。
 
 > [!TIP]
-> 活动主 Issue 的标题只需要写清楚活动名称，例如 `[event] BETA MEET: The Field Experience of an Ecologist`。Sub-issue 建议用 ` - ` 分隔活动名称、任务、渠道或日期等字段，例如 `[task] BETA MEET: The Field Experience of an Ecologist - 制作海报`，这样在父子层级中更容易看清归属。
+> Issue 标题推荐使用 English，但中文完全允许。系列活动应写清系列名称、期号和主题，例如 `[event] Beta Meet 08 - The Field Experience of an Ecologist`，也可以写成 `[event] Beta Meet 第8期 - 王璟老师的科幻讲座`。Sub-issue 必须复制 parent 活动名称，并用 ` - ` 分隔任务、渠道或日期，例如 `[task] Beta Meet 08 - The Field Experience of an Ecologist - Create poster`。
+
+Issue 标题中的期号规则与仓库目录命名规则分开执行。活动目录仍使用 `YYYY-MM-DD-SERIES-两位期数[-specific-topic]`，例如 `2026-09-29-BETA-MEET-01-the-field-experience-of-an-ecologist`。
 
 ## 流程图
 

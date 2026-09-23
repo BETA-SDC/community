@@ -24,10 +24,14 @@ description: Create, format, assign, label, branch, and review BETA-SDC event Is
 规则：
 
 - 主活动 Issue 使用 `[event] 活动名称`。
+- Issue 标题和正文推荐使用 English，中文完全允许。
+- 系列活动标题包含系列名称、期号和主题，例如 `[event] Beta Meet 08 - The Field Experience of an Ecologist`；中文写法 `[event] Beta Meet 第8期 - 王璟老师的科幻讲座` 同样有效。
+- Beta Meet 沿用已有期号继续递增；阅读交流会并入 Beta Meet，不另起期号。
 - Sub-issue 必须带 parent 活动名称。
 - parent、任务、渠道、日期之间使用前后带空格的 ` - `。
 - 日期统一使用 `YYYY-MM-DD`。
 - 同一活动的名称保持完全一致。
+- Sub-issue 必须复制 parent 的活动名称；仓库目录仍使用 `YYYY-MM-DD-SERIES-两位期数[-specific-topic]`，不把 Issue 的中文期号写入目录名。
 
 ## 标签
 

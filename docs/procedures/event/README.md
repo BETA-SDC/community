@@ -30,7 +30,9 @@
 7. **Wrap up.** Add sign-in statistics, photo/video locations, review notes, and reusable materials after the activity.
 
 > [!TIP]
-> The main activity Issue title only needs to state the activity name, such as `[event] BETA MEET: The Field Experience of an Ecologist`. Sub-issues should use ` - ` to separate the activity name, task, channel, date, or other fields, such as `[task] BETA MEET: The Field Experience of an Ecologist - Create poster`, so the parent-child relationship stays clear.
+> English is recommended for Issue titles, but Chinese is fully accepted. Series activities should include the series name, session number, and topic, such as `[event] Beta Meet 08 - The Field Experience of an Ecologist` or `[event] Beta Meet 第8期 - 王璟老师的科幻讲座`. Sub-issues must copy the parent activity name and use ` - ` to separate the task, channel, date, or other fields, such as `[task] Beta Meet 08 - The Field Experience of an Ecologist - Create poster`.
+
+Issue title numbering is separate from repository directory naming. Activity directories continue to use `YYYY-MM-DD-SERIES-two-digit-session[-specific-topic]`, such as `2026-09-29-BETA-MEET-01-the-field-experience-of-an-ecologist`.
 
 ## Flowchart
 
