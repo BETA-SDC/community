@@ -15,6 +15,17 @@ Use the private repository when community or activity work needs to preserve inf
 
 Do not copy private content into a public repository. Keep the public document readable, and only add a private link for people who have access.
 
+## Invoice Repository Exception
+
+[`BETA-SDC/invoice`](https://github.com/BETA-SDC/invoice) is already a private repository and is used to preserve structured reimbursement records, payer information, and related receipts. To keep reimbursement workflows and receipt traceability intact, existing names and contact details in `invoice` do not need to be forcibly migrated, redacted, or removed.
+
+If some information is also useful as general internal community information, it may be recorded in [`community-private-information`](https://github.com/BETA-SDC/community-private-information), but note:
+
+- `invoice` remains the primary source for reimbursement records and receipts.
+- A copy in `community-private-information` is supplementary and should not become a conflicting second source of truth.
+- When copying information, record the related activity, reimbursement directory, or `invoice` link in the private record.
+- The presence of contact details in `invoice` is not a reason to copy them into a public repository.
+
 ## Text References
 
 When a public document needs to point to private text, create a Markdown file in the private repository, then link to it:
