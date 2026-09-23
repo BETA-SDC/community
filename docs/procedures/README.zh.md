@@ -7,3 +7,4 @@
 ## 主题
 
 - [活动与宣传](./event/README.zh.md)
+- [私有信息引用说明](./privacy/private-information-reference.zh.md)
