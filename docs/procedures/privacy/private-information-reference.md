@@ -19,6 +19,8 @@ Do not copy private content into a public repository. Keep the public document r
 
 [`BETA-SDC/invoice`](https://github.com/BETA-SDC/invoice) is already a private repository and is used to preserve structured reimbursement records, payer information, and related receipts. To keep reimbursement workflows and receipt traceability intact, existing names and contact details in `invoice` do not need to be forcibly migrated, redacted, or removed.
 
+`invoice` is maintained separately because reimbursement records and receipts are updated frequently during active work. By contrast, `community-private-information` is intended for private community information with a lower update frequency, such as contact records, internal guidance, and activity-specific reference materials.
+
 If some information is also useful as general internal community information, it may be recorded in [`community-private-information`](https://github.com/BETA-SDC/community-private-information), but note:
 
 - `invoice` remains the primary source for reimbursement records and receipts.

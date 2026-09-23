@@ -19,6 +19,8 @@
 
 [`BETA-SDC/invoice`](https://github.com/BETA-SDC/invoice) 本身是私有仓库，主要用于保存报销所需的结构化票据、付款人信息和相关凭证。为了保证报销流程和票据追溯，`invoice` 中已有的付款人姓名、联系方式等信息不需要强制迁移、脱敏或删除。
 
+`invoice` 因为报销记录和票据在实际工作期间更新频率较高，所以单独维护。相比之下，`community-private-information` 主要保存更新频率较低的社区私有信息，例如联系人记录、内部工作说明和活动相关参考资料。
+
 如果某些信息也需要作为社区内部通用资料保存，可以同步记录到 [`community-private-information`](https://github.com/BETA-SDC/community-private-information)，但应注意：
 
 - `invoice` 仍然是报销资料和票据记录的主要来源。
