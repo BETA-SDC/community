@@ -54,7 +54,7 @@
 
 - 需要新鲜度的食品和饮料，尽量线下购买。
 - 包装零食、瓶装饮料等可以提前线上购买。
-- 如果需要校内 C19 天猫超市挂账，应提前联系辅导员确认挂账方式、可购买范围和联系方式。
+- 如果需要校内 C19 天猫超市挂账，应提前联系[Beta College 辅导员](https://github.com/BETA-SDC/community-private-information/blob/49-sensitive-data-protection/text/contacts/general.md#role-beta-college-counselor)确认挂账方式、可购买范围和联系方式。
 - 不要等到活动当天才确认挂账流程。
 
 如果需要线下采购新鲜食品、饮料或临时补充物资，可以考虑：
@@ -140,7 +140,7 @@
 - [ ] 已检查学校、书院或此前活动的库存
 - [ ] 实体奖品、定制物和快递物资已提前购买
 - [ ] 食品饮料已根据新鲜度选择线上或线下采购
-- [ ] C19 天猫超市挂账方式已提前向辅导员确认
+- [ ] C19 天猫超市挂账方式已提前向[Beta College 辅导员](https://github.com/BETA-SDC/community-private-information/blob/49-sensitive-data-protection/text/contacts/general.md#role-beta-college-counselor)确认
 - [ ] 线下采购的地点、预算、发票和交通方式已确认
 - [ ] 签到表已打印，并预留未报名到场人员的空位
 - [ ] 嘉宾饮品、接待和引导安排已确认
