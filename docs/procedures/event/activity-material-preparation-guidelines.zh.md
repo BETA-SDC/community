@@ -4,15 +4,26 @@
 
 > 这是一份活动物资准备参考指南，不是固定制度。活动负责人可以根据活动规模、形式、预算和报名情况灵活调整。遇到不确定的情况，可以按照下面的顺序逐项确认。
 
+## 相关文档
+
+- [活动与宣传流程](./README.zh.md)：了解活动从主 Issue 到活动后收尾的完整流程
+- [Issue 协作规范](./issue-collaboration-guidelines.zh.md)：了解 `[task]` Sub-issue、分支和 Pull Request 的使用方式
+- [活动材料目录和文件命名规范](./event-proposal-repo-naming-regulation.zh.md)：了解活动材料在 `event-proposal` 仓库中的存放方式
+- [签到记录整理规范](./sign-in-record-guidelines.zh.md)：整理报名、签到和实际到场名单
+- [素材拍摄与交付规范](./media-capture-guidelines.zh.md)：准备活动照片、视频和媒体素材
+- [invoice 报销仓库](https://github.com/BETA-SDC/invoice)：整理发票和报销记录
+- [发票抬头信息](https://github.com/BETA-SDC/invoice/blob/main/invoice-title.txt)：填写发票时参考
+- [票据 YAML 模板](https://github.com/BETA-SDC/invoice/tree/main/templates)：整理结构化票据信息时参考
+
 ## 什么时候需要单独跟进物资
 
-如果活动涉及较多物资、嘉宾、媒体设备、运动项目，或者报名人数较多，建议在活动主 Issue 下单独建立：
+如果活动涉及较多物资、嘉宾、媒体设备、运动项目，或者报名人数较多，建议参考[活动与宣传流程](./README.zh.md)，在活动主 Issue 下单独建立：
 
 ```text
 [task] 活动名称 - 准备物资
 ```
 
-在这个 Sub-issue 中集中记录需要准备的物品、数量、来源、预计获取时间和当前状态。普通规模的活动不必为了形式单独建立物资任务，但仍应完成本文档中的相关检查。
+在这个 [Sub-issue](./issue-collaboration-guidelines.zh.md) 中集中记录需要准备的物品、数量、来源、预计获取时间和当前状态。普通规模的活动不必为了形式单独建立物资任务，但仍应完成本文档中的相关检查。
 
 ## 第一步：先确认活动需求
 
@@ -121,7 +132,7 @@
 
 ### 交给谁整理
 
-账单、发票、行程单等 PDF 或图片凭证交给活动负责人统一整理。发票抬头、税号、金额、购买内容、购买时间、打车起终点等信息，不要只保存在 PDF 或图片里，还应按规定格式整理到 `invoice` 相关记录中，便于后续报销和复核。
+账单、发票、行程单等 PDF 或图片凭证交给活动负责人统一整理。发票抬头、税号、金额、购买内容、购买时间、打车起终点等信息，不要只保存在 PDF 或图片里，还应按照 [invoice 报销仓库](https://github.com/BETA-SDC/invoice) 的格式整理到相关记录中。填写发票抬头时可参考[发票抬头信息](https://github.com/BETA-SDC/invoice/blob/main/invoice-title.txt)，整理结构化票据时可参考[票据 YAML 模板](https://github.com/BETA-SDC/invoice/tree/main/templates)。
 
 ## 活动前最后检查
 

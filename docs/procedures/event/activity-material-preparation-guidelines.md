@@ -4,15 +4,26 @@
 
 > This is a practical reference, not a rigid policy. Adjust it according to the activity size, format, budget, and registration situation. When you are unsure what to do, follow the steps below in order.
 
+## Related Documents
+
+- [Activities and Publicity Workflow](./README.md): the complete workflow from the main Issue to post-activity wrap-up
+- [Issue Collaboration Guidelines](./issue-collaboration-guidelines.md): how to use `[task]` Sub-issues, branches, and Pull Requests
+- [Activity Material Directory and File Naming Rules](./event-proposal-repo-naming-regulation.md): how to store activity materials in the `event-proposal` repository
+- [Sign-In Record Guidelines](./sign-in-record-guidelines.md): how to organize registration, sign-in, and actual attendance lists
+- [Media Capture Guidelines](./media-capture-guidelines.md): how to prepare and deliver activity photos, videos, and other media
+- [invoice reimbursement repository](https://github.com/BETA-SDC/invoice): how to organize invoices and reimbursement records
+- [Invoice title information](https://github.com/BETA-SDC/invoice/blob/main/invoice-title.txt): reference when requesting an invoice
+- [Invoice YAML templates](https://github.com/BETA-SDC/invoice/tree/main/templates): reference when organizing structured receipt information
+
 ## When To Track Materials Separately
 
-For activities with many materials, guests, media equipment, sports activities, or a large number of participants, consider creating a separate Sub-issue under the main activity Issue:
+For activities with many materials, guests, media equipment, sports activities, or a large number of participants, follow the [Activities and Publicity Workflow](./README.md) and consider creating a separate Sub-issue under the main activity Issue:
 
 ```text
 [task] Activity Name - Prepare materials
 ```
 
-Use this Sub-issue to record the required items, quantities, sources, expected acquisition times, and current status. Smaller activities do not need a separate materials task just for formality, but should still complete the relevant checks in this guide.
+Use this [Sub-issue](./issue-collaboration-guidelines.md) to record the required items, quantities, sources, expected acquisition times, and current status. Smaller activities do not need a separate materials task just for formality, but should still complete the relevant checks in this guide.
 
 ## Step 1: Confirm The Activity Needs
 
@@ -121,7 +132,7 @@ Do not connect the equipment for the first time right before the activity starts
 
 ### Who Organizes Them
 
-Give bills, invoices, trip itineraries, and other PDF or image receipts to the activity owner for unified organization. Invoice title, tax number, amount, purchased items, purchase time, taxi start and end points, and other information should not exist only inside PDFs or images. Organize the information in the required format in the related `invoice` records for later reimbursement and review.
+Give bills, invoices, trip itineraries, and other PDF or image receipts to the activity owner for unified organization. Invoice title, tax number, amount, purchased items, purchase time, taxi start and end points, and other information should not exist only inside PDFs or images. Organize the information according to the [invoice reimbursement repository](https://github.com/BETA-SDC/invoice). Use the [invoice title information](https://github.com/BETA-SDC/invoice/blob/main/invoice-title.txt) when requesting an invoice, and refer to the [invoice YAML templates](https://github.com/BETA-SDC/invoice/tree/main/templates) when organizing structured receipt information.
 
 ## Final Pre-Activity Check
 
