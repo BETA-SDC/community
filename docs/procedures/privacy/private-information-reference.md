@@ -48,12 +48,12 @@ When using a private image:
 
 1. Upload the image in a private Issue or Pull Request in `community-private-information`.
 2. Copy the generated `github.com/user-attachments/assets/...` link.
-3. Render it from the public Markdown at the point where it is used.
+3. Render it from the public Markdown with HTML at the point where it is used. Put the image URL directly in `src`; do not nest a Markdown link inside the attribute.
 
 Use descriptive alt text:
 
-```markdown
-![Activity poster](https://github.com/user-attachments/assets/xxxx-xxxx-xxxx)
+```html
+<img width="540" alt="Activity poster" src="https://github.com/user-attachments/assets/xxxx-xxxx-xxxx" />
 ```
 
 ## Attachment References

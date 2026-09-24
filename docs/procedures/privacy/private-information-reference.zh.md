@@ -48,12 +48,12 @@ community-private-information/activities/YYYY-YYYY/YYYY-MM-DD-activity-slug/text
 
 1. 在 `community-private-information` 的私有 Issue 或 Pull Request 中上传图片。
 2. 复制 GitHub 生成的 `github.com/user-attachments/assets/...` 链接。
-3. 在公开 Markdown 中实际使用的位置主动渲染图片。
+3. 在公开 Markdown 中实际使用的位置用 HTML 主动渲染图片。`src` 中直接填写图片 URL，不要在属性中嵌套 Markdown 链接。
 
 使用能说明用途的替代文字：
 
-```markdown
-![活动海报](https://github.com/user-attachments/assets/xxxx-xxxx-xxxx)
+```html
+<img width="540" alt="活动海报" src="https://github.com/user-attachments/assets/xxxx-xxxx-xxxx" />
 ```
 
 ## 附件引用
