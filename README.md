@@ -9,13 +9,15 @@
 | 目录 | 内容 |
 | --- | --- |
 | [`members/`](members/) | 按学年保存的 SDC 成员名册 |
-| [`docs/`](docs/) | 组织制度、工作流程和参考资料 |
+| [`wiki/`](wiki/) | 按任务整理的 Wiki 导航 |
+| [`docs/`](docs/) | 组织制度、工作流程和参考资料正文 |
 | [`logos/`](logos/) | β书院、西湖大学及相关视觉素材 |
 
 ## 常用资料
 
 - [2026–2027 学年成员名册](members/2026-2027.csv)
 - [2025–2026 学年成员名册](members/2025-2026.csv)
+- [Wiki 导航](wiki/README.zh.md)
 - [SDC 成员规范测试题库](docs/resources/member-test/questions.md)
 - [文档总入口](docs/README.zh.md)
 - [2026 年值日与大扫除规章](docs/regulations/duty_roster_regulation_2026.md)
