@@ -4,8 +4,6 @@
 
 This directory collects Beta College SDC regulations, workflows, and reference materials. Choose a category based on the question you need to answer:
 
-For a task-oriented overview, start with the [Wiki index](../wiki/README.md).
-
 | Category | Question | Contents |
 | --- | --- | --- |
 | [`regulations/`](./regulations/) | What must be followed? | Formal organizational regulations and public space management rules |
