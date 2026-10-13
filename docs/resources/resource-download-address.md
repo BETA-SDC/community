@@ -10,3 +10,5 @@
 [MarkEdit](https://github.com/MarkEdit-app/MarkEdit/releases/latest) (**Mac Only**): a free, open-source Markdown editor built exclusively for macOS. It aims to feel like the system's native **TextEdit**, but dedicated entirely to Markdown editing.
 > [!NOTE]
 > Examine `Extensions` in the `Menu Bar` to discover useful extensions. I recommend to install "Markdown View Modes".
+
+[SVG Icons](https://svgicons.com)
